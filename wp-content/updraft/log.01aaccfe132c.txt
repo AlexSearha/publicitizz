@@ -1,0 +1,836 @@
+0000.000 (0) Opened log file at time: Sun, 02 Jul 2023 20:58:10 +0000 on https://www.publicitizz.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.6 WP: 6.2.2 PHP: 7.4.33 (litespeed, Linux plaf.o2switch.net 4.18.0-348.12.2.lve.el7h.x86_64 #1 SMP Mon Jan 24 05:45:10 EST 2022 x86_64) MySQL: 10.6.14-MariaDB (max packet size=268435456) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 44.9M | 48M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.042 (0) Free space on disk containing Updraft's temporary directory: 492669.3 MB
+0000.044 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.058 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.062 (0) Set semaphore last lock (fd) time to 2023-07-02 20:58:10
+0000.063 (0) Semaphore lock (fd) complete
+0000.067 (0) Backup run: resumption=0, nonce=01aaccfe132c, file_nonce=01aaccfe132c begun at=1688331490 (0s ago), job type=backup
+0000.070 (0) Scheduling a resumption (1) after 300 seconds (1688331790) in case this run gets aborted
+0000.073 (0) Checking if we have a zip executable available
+0000.074 (0) Testing: /usr/bin/zip
+0000.081 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.083 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.084 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.085 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.086 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.093 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.094 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.096 (0) Working binary zip found: /usr/bin/zip
+0000.098 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.099 (0) Creation of backups of directories: beginning
+0000.103 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.758 (0) Total entities for the zip file: 3004 directories, 14529 files (0 skipped as non-modified), 218.3 MB
+0001.765 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.769 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.773 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.776 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.780 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.784 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.788 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.792 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.796 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.800 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.801 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.8 MB, 14529 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0009.100 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: size is now: 9.50 MB
+0009.106 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 1100 files added (on-disk size: 9727.2 KB)
+0009.109 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 1200 files added (on-disk size: 9727.2 KB)
+0009.113 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 1300 files added (on-disk size: 9727.2 KB)
+0009.116 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 1400 files added (on-disk size: 9727.2 KB)
+0009.120 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 1500 files added (on-disk size: 9727.2 KB)
+0009.124 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 1600 files added (on-disk size: 9727.2 KB)
+0009.127 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 1700 files added (on-disk size: 9727.2 KB)
+0009.131 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 1800 files added (on-disk size: 9727.2 KB)
+0009.135 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 1900 files added (on-disk size: 9727.2 KB)
+0009.138 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 2000 files added (on-disk size: 9727.2 KB)
+0009.140 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8 MB, 14529 files batched, 1001 (2002) added so far); re-opening (prior size: 9727.2 KB)
+0010.673 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: size is now: 11.90 MB
+0010.680 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 2100 files added (on-disk size: 12232.5 KB)
+0010.684 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 2200 files added (on-disk size: 12232.5 KB)
+0010.688 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 2300 files added (on-disk size: 12232.5 KB)
+0010.691 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 2400 files added (on-disk size: 12232.5 KB)
+0010.695 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 2500 files added (on-disk size: 12232.5 KB)
+0010.699 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 2600 files added (on-disk size: 12232.5 KB)
+0010.703 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 2700 files added (on-disk size: 12232.5 KB)
+0010.707 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 14529 files batched, 788 (2790) added so far); re-opening (prior size: 12232.5 KB)
+0012.840 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: size is now: 16.60 MB
+0012.844 (0) A useful amount of data was added after this amount of zip processing: 2.9 s (normalised: 2.8 s, rate: 8983.7 KB/s)
+0012.847 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.852108001709, normalised_time=2.849604010453, max_time=12.845582962036, data points known=1, old_max_bytes=26214400, new_max_bytes=70902325)
+0012.850 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 2800 files added (on-disk size: 17010 KB)
+0012.853 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 2900 files added (on-disk size: 17010 KB)
+0012.857 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 3000 files added (on-disk size: 17010 KB)
+0012.861 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 3100 files added (on-disk size: 17010 KB)
+0012.864 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 3200 files added (on-disk size: 17010 KB)
+0012.868 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 3300 files added (on-disk size: 17010 KB)
+0012.871 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 3400 files added (on-disk size: 17010 KB)
+0012.875 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 3500 files added (on-disk size: 17010 KB)
+0012.879 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 3600 files added (on-disk size: 17010 KB)
+0012.882 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 3700 files added (on-disk size: 17010 KB)
+0012.886 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (29.4 MB, 14529 files batched, 1001 (3791) added so far); re-opening (prior size: 17010 KB)
+0016.366 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: size is now: 26.10 MB
+0016.394 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 3800 files added (on-disk size: 26756.8 KB)
+0016.398 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 3900 files added (on-disk size: 26756.8 KB)
+0016.401 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 4000 files added (on-disk size: 26756.8 KB)
+0016.405 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 4100 files added (on-disk size: 26756.8 KB)
+0016.409 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 4200 files added (on-disk size: 26756.8 KB)
+0016.413 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 4300 files added (on-disk size: 26756.8 KB)
+0016.417 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 4400 files added (on-disk size: 26756.8 KB)
+0016.420 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 4500 files added (on-disk size: 26756.8 KB)
+0016.424 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 4600 files added (on-disk size: 26756.8 KB)
+0016.427 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 4700 files added (on-disk size: 26756.8 KB)
+0016.431 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.6 MB, 14529 files batched, 1001 (4792) added so far); re-opening (prior size: 26756.8 KB)
+0020.197 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 4800 files added (on-disk size: 29570.2 KB)
+0020.204 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 4900 files added (on-disk size: 29570.2 KB)
+0020.209 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 5000 files added (on-disk size: 29570.2 KB)
+0020.214 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 5100 files added (on-disk size: 29570.2 KB)
+0020.219 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 5200 files added (on-disk size: 29570.2 KB)
+0020.223 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 5300 files added (on-disk size: 29570.2 KB)
+0020.228 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 5400 files added (on-disk size: 29570.2 KB)
+0020.232 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 5500 files added (on-disk size: 29570.2 KB)
+0020.236 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 5600 files added (on-disk size: 29570.2 KB)
+0020.240 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 5700 files added (on-disk size: 29570.2 KB)
+0020.244 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.9 MB, 14529 files batched, 1001 (5793) added so far); re-opening (prior size: 29570.2 KB)
+0023.839 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 5800 files added (on-disk size: 33833.6 KB)
+0023.842 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 5900 files added (on-disk size: 33833.6 KB)
+0023.845 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 6000 files added (on-disk size: 33833.6 KB)
+0023.848 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 6100 files added (on-disk size: 33833.6 KB)
+0023.852 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 6200 files added (on-disk size: 33833.6 KB)
+0023.856 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 6300 files added (on-disk size: 33833.6 KB)
+0023.860 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 6400 files added (on-disk size: 33833.6 KB)
+0023.863 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 6500 files added (on-disk size: 33833.6 KB)
+0023.867 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 6600 files added (on-disk size: 33833.6 KB)
+0023.871 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 6700 files added (on-disk size: 33833.6 KB)
+0023.874 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.9 MB, 14529 files batched, 1001 (6794) added so far); re-opening (prior size: 33833.6 KB)
+0027.897 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: size is now: 43.30 MB
+0027.903 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 6800 files added (on-disk size: 44347.5 KB)
+0027.907 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 6900 files added (on-disk size: 44347.5 KB)
+0027.912 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 7000 files added (on-disk size: 44347.5 KB)
+0027.915 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 7100 files added (on-disk size: 44347.5 KB)
+0027.920 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 7200 files added (on-disk size: 44347.5 KB)
+0027.924 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 7300 files added (on-disk size: 44347.5 KB)
+0027.928 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 7400 files added (on-disk size: 44347.5 KB)
+0027.932 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 7500 files added (on-disk size: 44347.5 KB)
+0027.935 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 7600 files added (on-disk size: 44347.5 KB)
+0027.940 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 7700 files added (on-disk size: 44347.5 KB)
+0027.944 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.1 MB, 14529 files batched, 1001 (7795) added so far); re-opening (prior size: 44347.5 KB)
+0030.566 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 7800 files added (on-disk size: 48034.7 KB)
+0030.571 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 7900 files added (on-disk size: 48034.7 KB)
+0030.574 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 8000 files added (on-disk size: 48034.7 KB)
+0030.578 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 8100 files added (on-disk size: 48034.7 KB)
+0030.582 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 8200 files added (on-disk size: 48034.7 KB)
+0030.585 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 8300 files added (on-disk size: 48034.7 KB)
+0030.589 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 8400 files added (on-disk size: 48034.7 KB)
+0030.593 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 8500 files added (on-disk size: 48034.7 KB)
+0030.597 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 8600 files added (on-disk size: 48034.7 KB)
+0030.600 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 8700 files added (on-disk size: 48034.7 KB)
+0030.604 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.8 MB, 14529 files batched, 1001 (8796) added so far); re-opening (prior size: 48034.7 KB)
+0031.903 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 8800 files added (on-disk size: 50769 KB)
+0031.907 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 8900 files added (on-disk size: 50769 KB)
+0031.911 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 9000 files added (on-disk size: 50769 KB)
+0031.914 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 9100 files added (on-disk size: 50769 KB)
+0031.918 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 9200 files added (on-disk size: 50769 KB)
+0031.921 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 9300 files added (on-disk size: 50769 KB)
+0031.925 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 9400 files added (on-disk size: 50769 KB)
+0031.929 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 9500 files added (on-disk size: 50769 KB)
+0031.932 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 9600 files added (on-disk size: 50769 KB)
+0031.936 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 9700 files added (on-disk size: 50769 KB)
+0031.939 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.2 MB, 14529 files batched, 1001 (9797) added so far); re-opening (prior size: 50769 KB)
+0033.403 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 9800 files added (on-disk size: 54611 KB)
+0033.407 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 9900 files added (on-disk size: 54611 KB)
+0033.411 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 10000 files added (on-disk size: 54611 KB)
+0033.415 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 10100 files added (on-disk size: 54611 KB)
+0033.419 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 10200 files added (on-disk size: 54611 KB)
+0033.423 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 10300 files added (on-disk size: 54611 KB)
+0033.426 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 10400 files added (on-disk size: 54611 KB)
+0033.430 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 10500 files added (on-disk size: 54611 KB)
+0033.434 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 10600 files added (on-disk size: 54611 KB)
+0033.438 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 10700 files added (on-disk size: 54611 KB)
+0033.443 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9 MB, 14529 files batched, 1001 (10798) added so far); re-opening (prior size: 54611 KB)
+0035.395 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 10800 files added (on-disk size: 57564.3 KB)
+0035.416 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 10900 files added (on-disk size: 57564.3 KB)
+0035.419 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 11000 files added (on-disk size: 57564.3 KB)
+0035.423 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 11100 files added (on-disk size: 57564.3 KB)
+0035.427 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 11200 files added (on-disk size: 57564.3 KB)
+0035.430 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 11300 files added (on-disk size: 57564.3 KB)
+0035.434 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 11400 files added (on-disk size: 57564.3 KB)
+0035.437 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 11500 files added (on-disk size: 57564.3 KB)
+0035.441 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 11600 files added (on-disk size: 57564.3 KB)
+0035.444 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 11700 files added (on-disk size: 57564.3 KB)
+0035.448 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.6 MB, 14529 files batched, 1001 (11799) added so far); re-opening (prior size: 57564.3 KB)
+0036.836 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 11800 files added (on-disk size: 64118.9 KB)
+0036.841 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 11900 files added (on-disk size: 64118.9 KB)
+0036.844 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 12000 files added (on-disk size: 64118.9 KB)
+0036.848 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 12100 files added (on-disk size: 64118.9 KB)
+0036.852 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 12200 files added (on-disk size: 64118.9 KB)
+0036.857 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 12300 files added (on-disk size: 64118.9 KB)
+0036.860 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 12400 files added (on-disk size: 64118.9 KB)
+0036.864 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 12500 files added (on-disk size: 64118.9 KB)
+0036.868 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 12600 files added (on-disk size: 64118.9 KB)
+0036.872 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 12700 files added (on-disk size: 64118.9 KB)
+0036.876 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.5 MB, 14529 files batched, 1001 (12800) added so far); re-opening (prior size: 64118.9 KB)
+0039.111 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 12800 files added (on-disk size: 65405.5 KB)
+0039.116 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 12900 files added (on-disk size: 65405.5 KB)
+0039.119 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 13000 files added (on-disk size: 65405.5 KB)
+0039.123 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 13100 files added (on-disk size: 65405.5 KB)
+0039.128 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 13200 files added (on-disk size: 65405.5 KB)
+0039.134 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 13300 files added (on-disk size: 65405.5 KB)
+0039.139 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 13400 files added (on-disk size: 65405.5 KB)
+0039.144 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 13500 files added (on-disk size: 65405.5 KB)
+0039.148 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 13600 files added (on-disk size: 65405.5 KB)
+0039.152 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 13700 files added (on-disk size: 65405.5 KB)
+0039.155 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 13800 files added (on-disk size: 65405.5 KB)
+0039.157 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.2 MB, 14529 files batched, 1001 (13801) added so far); re-opening (prior size: 65405.5 KB)
+0041.818 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 13900 files added (on-disk size: 67199.9 KB)
+0041.822 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 14000 files added (on-disk size: 67199.9 KB)
+0041.826 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 14100 files added (on-disk size: 67199.9 KB)
+0041.829 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 14200 files added (on-disk size: 67199.9 KB)
+0041.833 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 14300 files added (on-disk size: 67199.9 KB)
+0041.837 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 14400 files added (on-disk size: 67199.9 KB)
+0041.841 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.tmp: 14500 files added (on-disk size: 67199.9 KB)
+0045.398 (0) Creating zip file manifest (backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.list-temp.tmp)
+0045.429 (0) Successfully created zip file manifest (size: 1327718)
+0046.385 (0) Created plugins zip (0) - 75799.1 KB in 46.2 s (1639.3 KB/s) (sha1: d3848f801baad784d436b51dca13b8f971f9f68d, sha256: 0093c4ac4158eb2885283deccabb9e2d152e88dcf0df1178f72d305fd1d8e05e)
+0046.399 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0046.400 (0) No remote despatch: user chose no remote backup service
+0046.401 (0) Recording as successfully uploaded: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip
+0046.403 (0) Deleting zip manifest (backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip.list.tmp)
+0046.405 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0046.407 (0) Number of backup sets in history: 4; groups (db): 1
+0046.408 (0) Examining (for databases) backup set with group_id=0, nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0046.409 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0046.410 (0) Examining (for databases) backup set with group_id=0, nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0046.410 (0) Examining (for databases) backup set with group_id=0, nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0046.410 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0046.410 (0) Examining (for databases) backup set with group_id=0, nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0046.410 (0) Number of backup sets in history: 4; groups (files): 1
+0046.411 (0) Examining (for files) backup set with nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0046.411 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0046.412 (0) Examining (for files) backup set with nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0046.412 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0046.413 (0) Examining (for files) backup set with nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0046.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0046.414 (0) Examining (for files) backup set with nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0046.414 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0046.415 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0046.421 (0) Beginning creation of dump of themes (split every: 400 MB)
+0046.700 (0) Total entities for the zip file: 317 directories, 736 files (0 skipped as non-modified), 20.6 MB
+0046.705 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0046.709 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0046.713 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0046.717 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0046.721 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0046.725 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0046.729 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0049.181 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip.tmp: size is now: 7.70 MB
+0049.205 (0) Creating zip file manifest (backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip.list-temp.tmp)
+0049.209 (0) Successfully created zip file manifest (size: 63051)
+0049.374 (0) Created themes zip (0) - 7857.8 KB in 2.9 s (2701.2 KB/s) (sha1: 9e525801414347fa718e93eac0536c3ffa8f4bb1, sha256: 851051659a724292d66738984b479a6dce6a2f6253a64f1fbe3e05fbde0838f5)
+0049.378 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0049.379 (0) No remote despatch: user chose no remote backup service
+0049.380 (0) Recording as successfully uploaded: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip
+0049.382 (0) Deleting zip manifest (backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip.list.tmp)
+0049.384 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0049.386 (0) Number of backup sets in history: 4; groups (db): 1
+0049.387 (0) Examining (for databases) backup set with group_id=0, nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0049.387 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0049.388 (0) Examining (for databases) backup set with group_id=0, nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0049.388 (0) Examining (for databases) backup set with group_id=0, nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0049.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0049.388 (0) Examining (for databases) backup set with group_id=0, nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0049.388 (0) Number of backup sets in history: 4; groups (files): 1
+0049.389 (0) Examining (for files) backup set with nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0049.389 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0049.390 (0) Examining (for files) backup set with nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0049.390 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0049.390 (0) Examining (for files) backup set with nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0049.391 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0049.391 (0) Examining (for files) backup set with nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0049.391 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0049.392 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0049.398 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0049.399 (0) Looking for candidates to backup in: /home/btho3472/publicitizz.com/wp-content/uploads
+0049.400 (0) finding files: mailchimp-for-wp: adding to list (1)
+0049.401 (0) finding files: sb-instagram-feed-images: adding to list (2)
+0049.402 (0) finding files: useanyfont: adding to list (3)
+0049.403 (0) finding files: 2021: adding to list (4)
+0049.404 (0) finding files: forminator: adding to list (5)
+0049.405 (0) finding files: wc-logs: adding to list (6)
+0049.406 (0) finding files: woocommerce-placeholder.png: adding to list (7)
+0049.407 (0) finding files: cache: adding to list (8)
+0049.408 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (9)
+0049.409 (0) finding files: 2023: adding to list (10)
+0049.410 (0) finding files: 2022: adding to list (11)
+0049.411 (0) finding files: chronopost: adding to list (12)
+0049.412 (0) finding files: wpo_wcpdf_8fc243a2f05fba975b30f2fcc843374f: adding to list (13)
+0049.413 (0) finding files: astra-sites: adding to list (14)
+0049.414 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (15)
+0049.415 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (16)
+0049.417 (0) finding files: trustindex-google-widget.css: adding to list (17)
+0049.418 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (18)
+0049.419 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (19)
+0049.420 (0) finding files: wpforms: adding to list (20)
+0049.421 (0) finding files: woocommerce_uploads: adding to list (21)
+0049.422 (0) finding files: elementor: adding to list (22)
+0049.423 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (23)
+0049.424 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0049.615 (0) Total entities for the zip file: 53 directories, 2061 files (0 skipped as non-modified), 95.5 MB
+0049.620 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0049.624 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0049.627 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0049.631 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0049.635 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0049.638 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0049.642 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0049.645 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0049.649 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0049.652 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0049.654 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.4 MB, 2061 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0051.879 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: size is now: 16.20 MB
+0051.888 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 1100 files added (on-disk size: 16575.4 KB)
+0051.892 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 1200 files added (on-disk size: 16575.4 KB)
+0051.895 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 1300 files added (on-disk size: 16575.4 KB)
+0051.898 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 1400 files added (on-disk size: 16575.4 KB)
+0051.902 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 1500 files added (on-disk size: 16575.4 KB)
+0051.905 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 1600 files added (on-disk size: 16575.4 KB)
+0051.908 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 1700 files added (on-disk size: 16575.4 KB)
+0051.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 67.6 MB added on this batch (67.6 MB, 2061 files batched, 733 (1734) added so far); re-opening (prior size: 16575.4 KB)
+0056.939 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: size is now: 83.90 MB
+0056.945 (0) A useful amount of data was added after this amount of zip processing: 6 s (normalised: 6 s, rate: 11633.2 KB/s)
+0056.951 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.9522631168365, normalised_time=5.9519850868198, max_time=56.945605039597, data points known=1, old_max_bytes=70902325, new_max_bytes=209715200)
+0056.954 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 1800 files added (on-disk size: 85909.1 KB)
+0056.958 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 1900 files added (on-disk size: 85909.1 KB)
+0056.961 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.tmp: 2000 files added (on-disk size: 85909.1 KB)
+0060.852 (0) Creating zip file manifest (backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.list-temp.tmp)
+0060.861 (0) Successfully created zip file manifest (size: 124048)
+0062.000 (0) Created uploads zip (0) - 93646 KB in 12.5 s (7473.2 KB/s) (sha1: 3c10bc8df53ef434e2701002f8133447d45a2bca, sha256: 0f0ba93da6edf89952cac1a032251fb67da61ddcbcca4d86121555ebca5c9705)
+0062.004 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0062.005 (0) No remote despatch: user chose no remote backup service
+0062.006 (0) Recording as successfully uploaded: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip
+0062.007 (0) Deleting zip manifest (backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip.list.tmp)
+0062.009 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0062.011 (0) Number of backup sets in history: 4; groups (db): 1
+0062.011 (0) Examining (for databases) backup set with group_id=0, nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0062.012 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0062.013 (0) Examining (for databases) backup set with group_id=0, nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0062.013 (0) Examining (for databases) backup set with group_id=0, nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0062.013 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0062.013 (0) Examining (for databases) backup set with group_id=0, nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0062.013 (0) Number of backup sets in history: 4; groups (files): 1
+0062.014 (0) Examining (for files) backup set with nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0062.014 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0062.015 (0) Examining (for files) backup set with nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0062.015 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0062.015 (0) Examining (for files) backup set with nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0062.015 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0062.016 (0) Examining (for files) backup set with nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0062.016 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0062.017 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0062.021 (0) Beginning backup of other directories found in the content directory (index: 0)
+0062.022 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0062.023 (0) Looking for candidates to backup in: /home/btho3472/publicitizz.com/wp-content
+0062.024 (0) finding files: languages: adding to list (1)
+0062.025 (0) finding files: index.php: adding to list (2)
+0062.025 (0) finding files: fonts: adding to list (3)
+0062.026 (0) finding files: upgrade: skipping: excluded by options
+0062.027 (0) finding files: themes: skipping: this is the themes directory
+0062.028 (0) finding files: updraft: skipping: this is the updraft directory
+0062.029 (0) finding files: uploads: skipping: this is the uploads directory
+0062.029 (0) finding files: mu-plugins: adding to list (4)
+0062.030 (0) finding files: plugins: skipping: this is the plugins directory
+0062.080 (0) Total entities for the zip file: 5 directories, 444 files (0 skipped as non-modified), 9.7 MB
+0062.082 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0062.084 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0062.086 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0062.088 (0) Zip: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0063.746 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-others.zip.tmp: size is now: 2.80 MB
+0063.756 (0) Creating zip file manifest (backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-others.zip.list-temp.tmp)
+0063.759 (0) Successfully created zip file manifest (size: 34412)
+0063.837 (0) Created others zip (0) - 2887.7 KB in 1.8 s (1639 KB/s) (sha1: 1cbf6151c78779368fe9481fcc467ef2f430bd97, sha256: c79883c603968070e7624d21dacfe05126c1aa93c9d7821f1e36e82423868e77)
+0063.842 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0063.843 (0) No remote despatch: user chose no remote backup service
+0063.844 (0) Recording as successfully uploaded: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-others.zip
+0063.846 (0) Deleting zip manifest (backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-others.zip.list.tmp)
+0063.849 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0063.851 (0) Number of backup sets in history: 4; groups (db): 1
+0063.852 (0) Examining (for databases) backup set with group_id=0, nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0063.852 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0063.853 (0) Examining (for databases) backup set with group_id=0, nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0063.853 (0) Examining (for databases) backup set with group_id=0, nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0063.853 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0063.853 (0) Examining (for databases) backup set with group_id=0, nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0063.853 (0) Number of backup sets in history: 4; groups (files): 1
+0063.854 (0) Examining (for files) backup set with nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0063.854 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0063.855 (0) Examining (for files) backup set with nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0063.855 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0063.856 (0) Examining (for files) backup set with nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0063.856 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0063.857 (0) Examining (for files) backup set with nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0063.857 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0063.858 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0063.867 (0) Saving backup status to database (elements: 8)
+0063.870 (0) Beginning creation of database dump (WordPress DB)
+0063.871 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0063.874 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0063.901 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wply_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1465 bytes total)
+0063.902 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0063.915 (0) Table wply_options: Total expected rows (approximate): 1258
+0064.157 (0) Table wply_options: Rows added in this batch (next record: 128622): 1259 (uncompressed bytes in this segment=5448839) in 0.25 seconds
+0064.164 (0) Table wply_options: finishing file(s) (2, 461.5 KB)
+0064.168 (0) Table wply_users: Total expected rows (via COUNT): 5
+0064.169 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0064.172 (0) Table wply_users: Rows added in this batch (next record: 14): 5 (uncompressed bytes in this segment=2005) in 0.00 seconds
+0064.176 (0) Table wply_users: finishing file(s) (2, 1 KB)
+0064.182 (0) Table wply_usermeta: Total expected rows (via COUNT): 272
+0064.183 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0064.191 (0) Table wply_usermeta: Rows added in this batch (next record: 726): 272 (uncompressed bytes in this segment=59425) in 0.01 seconds
+0064.200 (0) Table wply_usermeta: finishing file(s) (2, 10.9 KB)
+0064.206 (0) Table wply_actionscheduler_actions: Total expected rows (approximate): 1129
+0064.211 (0) Table wply_actionscheduler_actions: Rows added in this batch (next record: 4861): 87 (uncompressed bytes in this segment=39698) in 0.01 seconds
+0064.217 (0) Table wply_actionscheduler_actions: finishing file(s) (2, 3.2 KB)
+0064.221 (0) Table wply_actionscheduler_claims: Total expected rows (via COUNT): 0
+0064.222 (0) Table wply_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=639) in 0.00 seconds
+0064.227 (0) Table wply_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0064.230 (0) Table wply_actionscheduler_groups: Total expected rows (via COUNT): 9
+0064.231 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0064.234 (0) Table wply_actionscheduler_groups: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=926) in 0.00 seconds
+0064.238 (0) Table wply_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0064.242 (0) Table wply_actionscheduler_logs: Total expected rows (approximate): 3413
+0064.248 (0) Table wply_actionscheduler_logs: Rows added in this batch (next record: 14002): 257 (uncompressed bytes in this segment=46671) in 0.01 seconds
+0064.253 (0) Table wply_actionscheduler_logs: finishing file(s) (2, 3.7 KB)
+0064.258 (0) Table wply_commentmeta: Total expected rows (via COUNT): 0
+0064.261 (0) Table wply_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=663) in 0.00 seconds
+0064.266 (0) Table wply_commentmeta: finishing file(s) (2, 0.4 KB)
+0064.270 (0) Table wply_comments: Total expected rows (via COUNT): 18
+0064.271 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0064.275 (0) Table wply_comments: Rows added in this batch (next record: 46): 18 (uncompressed bytes in this segment=5758) in 0.01 seconds
+0064.279 (0) Table wply_comments: finishing file(s) (2, 1.1 KB)
+0064.284 (0) Table wply_links: Total expected rows (via COUNT): 0
+0064.286 (0) Table wply_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0064.291 (0) Table wply_links: finishing file(s) (2, 0.5 KB)
+0064.294 (0) Table wply_postmeta: Total expected rows (approximate): 17523
+0068.965 (0) Table wply_postmeta: binary mysqldump finished (writes: 108, bytes 78845786, return code 0) in 4.67 seconds
+0068.979 (0) Table wply_postmeta: finishing file(s) (1, 7803.4 KB)
+0069.002 (0) Table wply_posts: Total expected rows (approximate): 5177
+0069.438 (0) Table wply_posts: Rows added in this batch (next record: 4599): 2714 (uncompressed bytes in this segment=14229030) in 0.44 seconds
+0069.442 (0) Table wply_posts: finishing file(s) (2, 512.7 KB)
+0069.447 (0) Table wply_snippets: Total expected rows (via COUNT): 10
+0069.448 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.451 (0) Table wply_snippets: Rows added in this batch (next record: 21): 10 (uncompressed bytes in this segment=7643) in 0.01 seconds
+0069.455 (0) Table wply_snippets: finishing file(s) (2, 2.7 KB)
+0069.458 (0) Table wply_term_relationships: Total expected rows (approximate): 110
+0069.461 (0) Table wply_term_relationships: Rows added in this batch (next record: 100000): 120 (uncompressed bytes in this segment=2595) in 0.00 seconds
+0069.464 (0) Table wply_term_relationships: finishing file(s) (2, 0.8 KB)
+0069.469 (0) Table wply_term_taxonomy: Total expected rows (via COUNT): 58
+0069.470 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.472 (0) Table wply_term_taxonomy: Rows added in this batch (next record: 71): 58 (uncompressed bytes in this segment=3030) in 0.01 seconds
+0069.476 (0) Table wply_term_taxonomy: finishing file(s) (2, 0.9 KB)
+0069.481 (0) Table wply_termmeta: Total expected rows (via COUNT): 102
+0069.482 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.485 (0) Table wply_termmeta: Rows added in this batch (next record: 142): 102 (uncompressed bytes in this segment=4255) in 0.01 seconds
+0069.489 (0) Table wply_termmeta: finishing file(s) (2, 1 KB)
+0069.493 (0) Table wply_terms: Total expected rows (via COUNT): 58
+0069.494 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.497 (0) Table wply_terms: Rows added in this batch (next record: 71): 58 (uncompressed bytes in this segment=2979) in 0.00 seconds
+0069.500 (0) Table wply_terms: finishing file(s) (2, 1.2 KB)
+0069.504 (0) Table wply_wc_category_lookup: Total expected rows (approximate): 44
+0069.506 (0) Table wply_wc_category_lookup: Rows added in this batch (next record: 1000): 44 (uncompressed bytes in this segment=1077) in 0.00 seconds
+0069.510 (0) Table wply_wc_category_lookup: finishing file(s) (2, 0.5 KB)
+0069.514 (0) Table wply_wc_product_meta_lookup: Total expected rows (via COUNT): 225
+0069.515 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.520 (0) Table wply_wc_product_meta_lookup: Rows added in this batch (next record: 4349): 225 (uncompressed bytes in this segment=22805) in 0.01 seconds
+0069.524 (0) Table wply_wc_product_meta_lookup: finishing file(s) (2, 1.5 KB)
+0069.527 (0) Table wply_wc_reserved_stock: Total expected rows (approximate): 0
+0069.530 (0) Table wply_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=675) in 0.00 seconds
+0069.533 (0) Table wply_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0069.537 (0) Table wply_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0069.538 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.540 (0) Table wply_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=764) in 0.00 seconds
+0069.544 (0) Table wply_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0069.549 (0) Table wply_woocommerce_order_itemmeta: Total expected rows (via COUNT): 109
+0069.549 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.552 (0) Table wply_woocommerce_order_itemmeta: Rows added in this batch (next record: 387): 109 (uncompressed bytes in this segment=6374) in 0.01 seconds
+0069.557 (0) Table wply_woocommerce_order_itemmeta: finishing file(s) (2, 1.9 KB)
+0069.562 (0) Table wply_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0069.564 (0) Table wply_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.00 seconds
+0069.569 (0) Table wply_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0069.572 (0) Table wply_adfoin_integration: Total expected rows (approximate): 0
+0069.575 (0) Table wply_adfoin_integration: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=839) in 0.00 seconds
+0069.578 (0) Table wply_adfoin_integration: finishing file(s) (2, 0.4 KB)
+0069.582 (0) Table wply_adfoin_log: Total expected rows (approximate): 0
+0069.583 (0) Table wply_adfoin_log: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=688) in 0.00 seconds
+0069.586 (0) Table wply_adfoin_log: finishing file(s) (2, 0.4 KB)
+0069.590 (0) Table wply_bw_pricing_items: Total expected rows (approximate): 26
+0069.591 (0) Table wply_bw_pricing_items: Rows added in this batch (next record: 1000): 26 (uncompressed bytes in this segment=3118) in 0.00 seconds
+0069.595 (0) Table wply_bw_pricing_items: finishing file(s) (2, 0.8 KB)
+0069.598 (0) Table wply_e_events: Total expected rows (via COUNT): 0
+0069.600 (0) Table wply_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=523) in 0.00 seconds
+0069.603 (0) Table wply_e_events: finishing file(s) (2, 0.4 KB)
+0069.607 (0) Table wply_frmt_form_entry: Total expected rows (via COUNT): 758
+0069.616 (0) Table wply_frmt_form_entry: Rows added in this batch (next record: 787): 758 (uncompressed bytes in this segment=47790) in 0.01 seconds
+0069.621 (0) Table wply_frmt_form_entry: finishing file(s) (2, 6.6 KB)
+0069.628 (0) Table wply_frmt_form_entry_meta: Total expected rows (approximate): 1768
+0069.704 (0) Table wply_frmt_form_entry_meta: Rows added in this batch (next record: 2376): 2317 (uncompressed bytes in this segment=1363888) in 0.08 seconds
+0069.710 (0) Table wply_frmt_form_entry_meta: finishing file(s) (2, 114.9 KB)
+0069.715 (0) Table wply_frmt_form_reports: Total expected rows (via COUNT): 1
+0069.716 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.719 (0) Table wply_frmt_form_reports: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1255) in 0.01 seconds
+0069.724 (0) Table wply_frmt_form_reports: finishing file(s) (2, 0.7 KB)
+0069.728 (0) Table wply_frmt_form_views: Total expected rows (approximate): 4049
+0069.795 (0) Table wply_frmt_form_views: Rows added in this batch (next record: 4616): 4549 (uncompressed bytes in this segment=342904) in 0.07 seconds
+0069.800 (0) Table wply_frmt_form_views: finishing file(s) (2, 49.3 KB)
+0069.806 (0) Table wply_fsmpt_email_logs: Total expected rows (via COUNT): 77
+0069.807 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.813 (0) Table wply_fsmpt_email_logs: Rows added in this batch (next record: 995): 77 (uncompressed bytes in this segment=65667) in 0.01 seconds
+0069.819 (0) Table wply_fsmpt_email_logs: finishing file(s) (2, 6 KB)
+0069.823 (0) Table wply_litespeed_url: Total expected rows (via COUNT): 0
+0069.826 (0) Table wply_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=585) in 0.00 seconds
+0069.830 (0) Table wply_litespeed_url: finishing file(s) (2, 0.4 KB)
+0069.835 (0) Table wply_litespeed_url_file: Total expected rows (via COUNT): 0
+0069.836 (0) Table wply_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1019) in 0.00 seconds
+0069.841 (0) Table wply_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0069.846 (0) Table wply_mailchimp_carts: Total expected rows (approximate): 2
+0069.848 (0) Table wply_mailchimp_carts: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=1557) in 0.00 seconds
+0069.853 (0) Table wply_mailchimp_carts: finishing file(s) (2, 0.8 KB)
+0069.858 (0) Table wply_mailchimp_jobs: Total expected rows (via COUNT): 23
+0069.859 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.864 (0) Table wply_mailchimp_jobs: Rows added in this batch (next record: 1179): 23 (uncompressed bytes in this segment=13798) in 0.01 seconds
+0069.869 (0) Table wply_mailchimp_jobs: finishing file(s) (2, 1.6 KB)
+0069.875 (0) Table wply_sbi_feed_caches: Total expected rows (via COUNT): 2
+0069.876 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.878 (0) Table wply_sbi_feed_caches: Rows added in this batch (next record: 26): 2 (uncompressed bytes in this segment=2171) in 0.01 seconds
+0069.885 (0) Table wply_sbi_feed_caches: finishing file(s) (2, 1.5 KB)
+0069.892 (0) Table wply_sbi_feeds: Total expected rows (via COUNT): 3
+0069.894 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.896 (0) Table wply_sbi_feeds: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=7029) in 0.01 seconds
+0069.902 (0) Table wply_sbi_feeds: finishing file(s) (2, 1.4 KB)
+0069.909 (0) Table wply_sbi_instagram_feed_locator: Total expected rows (via COUNT): 0
+0069.912 (0) Table wply_sbi_instagram_feed_locator: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=819) in 0.01 seconds
+0069.918 (0) Table wply_sbi_instagram_feed_locator: finishing file(s) (2, 0.4 KB)
+0069.924 (0) Table wply_sbi_instagram_feeds_posts: Total expected rows (via COUNT): 0
+0069.925 (0) Table wply_sbi_instagram_feeds_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.00 seconds
+0069.930 (0) Table wply_sbi_instagram_feeds_posts: finishing file(s) (2, 0.4 KB)
+0069.937 (0) Table wply_sbi_instagram_posts: Total expected rows (via COUNT): 0
+0069.939 (0) Table wply_sbi_instagram_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=922) in 0.00 seconds
+0069.945 (0) Table wply_sbi_instagram_posts: finishing file(s) (2, 0.5 KB)
+0069.951 (0) Table wply_sbi_sources: Total expected rows (via COUNT): 0
+0069.952 (0) Table wply_sbi_sources: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=934) in 0.00 seconds
+0069.957 (0) Table wply_sbi_sources: finishing file(s) (2, 0.4 KB)
+0069.962 (0) Table wply_trustindex_google_reviews: Total expected rows (approximate): 3
+0069.964 (0) Table wply_trustindex_google_reviews: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=1505) in 0.00 seconds
+0069.969 (0) Table wply_trustindex_google_reviews: finishing file(s) (2, 0.7 KB)
+0069.980 (0) Table wply_wc_admin_note_actions: Total expected rows (via COUNT): 61
+0069.981 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.987 (0) Table wply_wc_admin_note_actions: Rows added in this batch (next record: 2114): 61 (uncompressed bytes in this segment=10852) in 0.01 seconds
+0069.993 (0) Table wply_wc_admin_note_actions: finishing file(s) (2, 2.6 KB)
+0070.000 (0) Table wply_wc_admin_notes: Total expected rows (via COUNT): 50
+0070.001 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.006 (0) Table wply_wc_admin_notes: Rows added in this batch (next record: 69): 50 (uncompressed bytes in this segment=24110) in 0.01 seconds
+0070.013 (0) Table wply_wc_admin_notes: finishing file(s) (2, 6.6 KB)
+0070.018 (0) Table wply_wc_customer_lookup: Total expected rows (via COUNT): 3
+0070.019 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.023 (0) Table wply_wc_customer_lookup: Rows added in this batch (next record: 11): 3 (uncompressed bytes in this segment=1571) in 0.01 seconds
+0070.028 (0) Table wply_wc_customer_lookup: finishing file(s) (2, 0.7 KB)
+0070.033 (0) Table wply_wc_download_log: Total expected rows (via COUNT): 0
+0070.036 (0) Table wply_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.00 seconds
+0070.041 (0) Table wply_wc_download_log: finishing file(s) (2, 0.4 KB)
+0070.046 (0) Table wply_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0070.048 (0) Table wply_wc_order_coupon_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=821) in 0.00 seconds
+0070.053 (0) Table wply_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0070.058 (0) Table wply_wc_order_product_lookup: Total expected rows (via COUNT): 8
+0070.059 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.063 (0) Table wply_wc_order_product_lookup: Rows added in this batch (next record: 44): 8 (uncompressed bytes in this segment=2017) in 0.01 seconds
+0070.068 (0) Table wply_wc_order_product_lookup: finishing file(s) (2, 0.7 KB)
+0070.073 (0) Table wply_wc_order_stats: Total expected rows (via COUNT): 4
+0070.074 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.076 (0) Table wply_wc_order_stats: Rows added in this batch (next record: 4541): 4 (uncompressed bytes in this segment=1877) in 0.00 seconds
+0070.081 (0) Table wply_wc_order_stats: finishing file(s) (2, 0.7 KB)
+0070.085 (0) Table wply_wc_order_tax_lookup: Total expected rows (approximate): 0
+0070.088 (0) Table wply_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0070.092 (0) Table wply_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0070.097 (0) Table wply_wc_product_attributes_lookup: Total expected rows (approximate): 154
+0070.100 (0) Table wply_wc_product_attributes_lookup: Rows added in this batch (next record: 1000): 154 (uncompressed bytes in this segment=6748) in 0.00 seconds
+0070.104 (0) Table wply_wc_product_attributes_lookup: finishing file(s) (2, 0.9 KB)
+0070.108 (0) Table wply_wc_product_download_directories: Total expected rows (via COUNT): 2
+0070.109 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.113 (0) Table wply_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=930) in 0.01 seconds
+0070.117 (0) Table wply_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0070.122 (0) Table wply_wc_rate_limits: Total expected rows (via COUNT): 1
+0070.124 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.125 (0) Table wply_wc_rate_limits: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=782) in 0.00 seconds
+0070.130 (0) Table wply_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0070.135 (0) Table wply_wc_webhooks: Total expected rows (via COUNT): 0
+0070.138 (0) Table wply_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1083) in 0.00 seconds
+0070.143 (0) Table wply_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0070.148 (0) Table wply_wcpdf_invoice_number: Total expected rows (via COUNT): 14
+0070.150 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.153 (0) Table wply_wcpdf_invoice_number: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=1252) in 0.01 seconds
+0070.158 (0) Table wply_wcpdf_invoice_number: finishing file(s) (2, 0.6 KB)
+0070.165 (0) Table wply_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0070.168 (0) Table wply_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=885) in 0.01 seconds
+0070.174 (0) Table wply_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0070.179 (0) Table wply_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 1
+0070.181 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.184 (0) Table wply_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=976) in 0.01 seconds
+0070.189 (0) Table wply_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0070.194 (0) Table wply_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0070.197 (0) Table wply_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1422) in 0.00 seconds
+0070.202 (0) Table wply_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0070.209 (0) Table wply_woocommerce_log: Total expected rows (via COUNT): 0
+0070.211 (0) Table wply_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.00 seconds
+0070.217 (0) Table wply_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0070.222 (0) Table wply_woocommerce_order_items: Total expected rows (via COUNT): 13
+0070.223 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.227 (0) Table wply_woocommerce_order_items: Rows added in this batch (next record: 45): 13 (uncompressed bytes in this segment=1344) in 0.01 seconds
+0070.232 (0) Table wply_woocommerce_order_items: finishing file(s) (2, 0.6 KB)
+0070.237 (0) Table wply_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0070.240 (0) Table wply_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.00 seconds
+0070.245 (0) Table wply_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0070.252 (0) Table wply_woocommerce_sessions: Total expected rows (via COUNT): 1
+0070.253 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.257 (0) Table wply_woocommerce_sessions: Rows added in this batch (next record: 769): 1 (uncompressed bytes in this segment=2505) in 0.01 seconds
+0070.263 (0) Table wply_woocommerce_sessions: finishing file(s) (2, 1 KB)
+0070.268 (0) Table wply_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0070.270 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.272 (0) Table wply_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=929) in 0.00 seconds
+0070.280 (0) Table wply_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0070.286 (0) Table wply_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 3
+0070.287 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.289 (0) Table wply_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 8): 3 (uncompressed bytes in this segment=929) in 0.00 seconds
+0070.294 (0) Table wply_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.5 KB)
+0070.299 (0) Table wply_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0070.300 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.302 (0) Table wply_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=703) in 0.00 seconds
+0070.307 (0) Table wply_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0070.312 (0) Table wply_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0070.315 (0) Table wply_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0070.320 (0) Table wply_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0070.325 (0) Table wply_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0070.327 (0) Table wply_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1154) in 0.00 seconds
+0070.332 (0) Table wply_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0070.336 (0) Table wply_woof_query_cache: Total expected rows (approximate): 0
+0070.338 (0) Table wply_woof_query_cache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=468) in 0.00 seconds
+0070.343 (0) Table wply_woof_query_cache: finishing file(s) (2, 0.3 KB)
+0070.351 (0) Table wply_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0070.352 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.355 (0) Table wply_wpforms_tasks_meta: Rows added in this batch (next record: 12): 4 (uncompressed bytes in this segment=927) in 0.01 seconds
+0070.362 (0) Table wply_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0070.370 (0) Table wply_yoast_indexable: Total expected rows (via COUNT): 77
+0070.371 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.381 (0) Table wply_yoast_indexable: Rows added in this batch (next record: 1068): 77 (uncompressed bytes in this segment=49250) in 0.02 seconds
+0070.388 (0) Table wply_yoast_indexable: finishing file(s) (2, 9.1 KB)
+0070.393 (0) Table wply_yoast_indexable_hierarchy: Total expected rows (approximate): 75
+0070.397 (0) Table wply_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 76 (uncompressed bytes in this segment=2129) in 0.00 seconds
+0070.402 (0) Table wply_yoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0070.407 (0) Table wply_yoast_migrations: Total expected rows (via COUNT): 24
+0070.408 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.412 (0) Table wply_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1248) in 0.01 seconds
+0070.417 (0) Table wply_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0070.422 (0) Table wply_yoast_primary_term: Total expected rows (via COUNT): 14
+0070.423 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.425 (0) Table wply_yoast_primary_term: Rows added in this batch (next record: 43): 14 (uncompressed bytes in this segment=2035) in 0.00 seconds
+0070.430 (0) Table wply_yoast_primary_term: finishing file(s) (2, 0.8 KB)
+0070.436 (0) Table wply_yoast_seo_links: Total expected rows (via COUNT): 345
+0070.437 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.446 (0) Table wply_yoast_seo_links: Rows added in this batch (next record: 782): 345 (uncompressed bytes in this segment=45301) in 0.01 seconds
+0070.451 (0) Table wply_yoast_seo_links: finishing file(s) (2, 4.9 KB)
+0070.454 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_options.table.tmpr128623.gz (1/75/fopen): adding to final database dump
+0070.463 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_options.table.gz (2/75/fopen): adding to final database dump
+0070.464 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_users.table.tmpr15.gz (3/75/fopen): adding to final database dump
+0070.465 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_users.table.gz (4/75/fopen): adding to final database dump
+0070.467 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_usermeta.table.tmpr727.gz (5/75/fopen): adding to final database dump
+0070.468 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_usermeta.table.gz (6/75/fopen): adding to final database dump
+0070.470 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_actionscheduler_actions.table.tmpr4862.gz (7/75/fopen): adding to final database dump
+0070.471 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_actionscheduler_actions.table.gz (8/75/fopen): adding to final database dump
+0070.472 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_actionscheduler_claims.table.tmpr0.gz (9/75/fopen): adding to final database dump
+0070.474 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_actionscheduler_claims.table.gz (10/75/fopen): adding to final database dump
+0070.475 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_actionscheduler_groups.table.tmpr10.gz (11/75/fopen): adding to final database dump
+0070.476 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_actionscheduler_groups.table.gz (12/75/fopen): adding to final database dump
+0070.478 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_actionscheduler_logs.table.tmpr14003.gz (13/75/fopen): adding to final database dump
+0070.479 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_actionscheduler_logs.table.gz (14/75/fopen): adding to final database dump
+0070.481 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_commentmeta.table.tmpr0.gz (15/75/fopen): adding to final database dump
+0070.482 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_commentmeta.table.gz (16/75/fopen): adding to final database dump
+0070.483 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_comments.table.tmpr47.gz (17/75/fopen): adding to final database dump
+0070.485 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_comments.table.gz (18/75/fopen): adding to final database dump
+0070.486 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_links.table.tmpr0.gz (19/75/fopen): adding to final database dump
+0070.488 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_links.table.gz (20/75/fopen): adding to final database dump
+0070.489 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_postmeta.table.gz (21/75/fopen): adding to final database dump
+0070.617 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_posts.table.tmpr4600.gz (22/75/fopen): adding to final database dump
+0070.628 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_posts.table.gz (23/75/fopen): adding to final database dump
+0070.629 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_snippets.table.tmpr22.gz (24/75/fopen): adding to final database dump
+0070.630 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_snippets.table.gz (25/75/fopen): adding to final database dump
+0070.631 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_term_relationships.table.tmpr100001.gz (26/75/fopen): adding to final database dump
+0070.633 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_term_relationships.table.gz (27/75/fopen): adding to final database dump
+0070.634 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_term_taxonomy.table.tmpr72.gz (28/75/fopen): adding to final database dump
+0070.635 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_term_taxonomy.table.gz (29/75/fopen): adding to final database dump
+0070.636 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_termmeta.table.tmpr143.gz (30/75/fopen): adding to final database dump
+0070.638 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_termmeta.table.gz (31/75/fopen): adding to final database dump
+0070.639 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_terms.table.tmpr72.gz (32/75/fopen): adding to final database dump
+0070.640 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_terms.table.gz (33/75/fopen): adding to final database dump
+0070.642 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_category_lookup.table.tmpr1001.gz (34/75/fopen): adding to final database dump
+0070.643 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_category_lookup.table.gz (35/75/fopen): adding to final database dump
+0070.644 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_product_meta_lookup.table.tmpr4350.gz (36/75/fopen): adding to final database dump
+0070.645 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_product_meta_lookup.table.gz (37/75/fopen): adding to final database dump
+0070.647 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_reserved_stock.table.tmpr1.gz (38/75/fopen): adding to final database dump
+0070.648 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_reserved_stock.table.gz (39/75/fopen): adding to final database dump
+0070.649 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_tax_rate_classes.table.tmpr3.gz (40/75/fopen): adding to final database dump
+0070.651 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_tax_rate_classes.table.gz (41/75/fopen): adding to final database dump
+0070.652 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_order_itemmeta.table.tmpr388.gz (42/75/fopen): adding to final database dump
+0070.653 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_order_itemmeta.table.gz (43/75/fopen): adding to final database dump
+0070.655 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_payment_tokenmeta.table.tmpr0.gz (44/75/fopen): adding to final database dump
+0070.656 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_payment_tokenmeta.table.gz (45/75/fopen): adding to final database dump
+0070.657 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_adfoin_integration.table.tmpr1.gz (46/75/fopen): adding to final database dump
+0070.659 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_adfoin_integration.table.gz (47/75/fopen): adding to final database dump
+0070.660 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_adfoin_log.table.tmpr1.gz (48/75/fopen): adding to final database dump
+0070.661 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_adfoin_log.table.gz (49/75/fopen): adding to final database dump
+0070.663 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_bw_pricing_items.table.tmpr1001.gz (50/75/fopen): adding to final database dump
+0070.664 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_bw_pricing_items.table.gz (51/75/fopen): adding to final database dump
+0070.665 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_e_events.table.tmpr0.gz (52/75/fopen): adding to final database dump
+0070.667 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_e_events.table.gz (53/75/fopen): adding to final database dump
+0070.668 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_frmt_form_entry.table.tmpr788.gz (54/75/fopen): adding to final database dump
+0070.669 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_frmt_form_entry.table.gz (55/75/fopen): adding to final database dump
+0070.671 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_frmt_form_entry_meta.table.tmpr2377.gz (56/75/fopen): adding to final database dump
+0070.674 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_frmt_form_entry_meta.table.gz (57/75/fopen): adding to final database dump
+0070.675 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_frmt_form_reports.table.tmpr2.gz (58/75/fopen): adding to final database dump
+0070.677 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_frmt_form_reports.table.gz (59/75/fopen): adding to final database dump
+0070.678 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_frmt_form_views.table.tmpr4617.gz (60/75/fopen): adding to final database dump
+0070.680 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_frmt_form_views.table.gz (61/75/fopen): adding to final database dump
+0070.682 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_fsmpt_email_logs.table.tmpr996.gz (62/75/fopen): adding to final database dump
+0070.683 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_fsmpt_email_logs.table.gz (63/75/fopen): adding to final database dump
+0070.684 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_litespeed_url.table.tmpr0.gz (64/75/fopen): adding to final database dump
+0070.686 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_litespeed_url.table.gz (65/75/fopen): adding to final database dump
+0070.687 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_litespeed_url_file.table.tmpr0.gz (66/75/fopen): adding to final database dump
+0070.688 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_litespeed_url_file.table.gz (67/75/fopen): adding to final database dump
+0070.690 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_mailchimp_carts.table.tmpr1001.gz (68/75/fopen): adding to final database dump
+0070.691 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_mailchimp_carts.table.gz (69/75/fopen): adding to final database dump
+0070.692 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_mailchimp_jobs.table.tmpr1180.gz (70/75/fopen): adding to final database dump
+0070.694 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_mailchimp_jobs.table.gz (71/75/fopen): adding to final database dump
+0070.695 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_feed_caches.table.tmpr27.gz (72/75/fopen): adding to final database dump
+0070.696 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_feed_caches.table.gz (73/75/fopen): adding to final database dump
+0070.698 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_feeds.table.tmpr4.gz (74/75/fopen): adding to final database dump
+0070.699 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_feeds.table.gz (75/75/fopen): adding to final database dump
+0070.700 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_instagram_feed_locator.table.tmpr0.gz (76/75/fopen): adding to final database dump
+0070.701 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_instagram_feed_locator.table.gz (77/75/fopen): adding to final database dump
+0070.703 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_instagram_feeds_posts.table.tmpr0.gz (78/75/fopen): adding to final database dump
+0070.704 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_instagram_feeds_posts.table.gz (79/75/fopen): adding to final database dump
+0070.705 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_instagram_posts.table.tmpr0.gz (80/75/fopen): adding to final database dump
+0070.707 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_instagram_posts.table.gz (81/75/fopen): adding to final database dump
+0070.708 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_sources.table.tmpr0.gz (82/75/fopen): adding to final database dump
+0070.709 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_sbi_sources.table.gz (83/75/fopen): adding to final database dump
+0070.711 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_trustindex_google_reviews.table.tmpr1001.gz (84/75/fopen): adding to final database dump
+0070.712 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_trustindex_google_reviews.table.gz (85/75/fopen): adding to final database dump
+0070.714 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_admin_note_actions.table.tmpr2115.gz (86/75/fopen): adding to final database dump
+0070.715 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_admin_note_actions.table.gz (87/75/fopen): adding to final database dump
+0070.716 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_admin_notes.table.tmpr70.gz (88/75/fopen): adding to final database dump
+0070.718 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_admin_notes.table.gz (89/75/fopen): adding to final database dump
+0070.719 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_customer_lookup.table.tmpr12.gz (90/75/fopen): adding to final database dump
+0070.720 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_customer_lookup.table.gz (91/75/fopen): adding to final database dump
+0070.721 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_download_log.table.tmpr0.gz (92/75/fopen): adding to final database dump
+0070.723 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_download_log.table.gz (93/75/fopen): adding to final database dump
+0070.724 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_order_coupon_lookup.table.tmpr1001.gz (94/75/fopen): adding to final database dump
+0070.725 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_order_coupon_lookup.table.gz (95/75/fopen): adding to final database dump
+0070.727 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_order_product_lookup.table.tmpr45.gz (96/75/fopen): adding to final database dump
+0070.728 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_order_product_lookup.table.gz (97/75/fopen): adding to final database dump
+0070.729 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_order_stats.table.tmpr4542.gz (98/75/fopen): adding to final database dump
+0070.731 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_order_stats.table.gz (99/75/fopen): adding to final database dump
+0070.734 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_order_tax_lookup.table.tmpr1.gz (100/75/fopen): adding to final database dump
+0070.735 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_order_tax_lookup.table.gz (101/75/fopen): adding to final database dump
+0070.737 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_product_attributes_lookup.table.tmpr1001.gz (102/75/fopen): adding to final database dump
+0070.738 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_product_attributes_lookup.table.gz (103/75/fopen): adding to final database dump
+0070.739 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_product_download_directories.table.tmpr3.gz (104/75/fopen): adding to final database dump
+0070.741 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_product_download_directories.table.gz (105/75/fopen): adding to final database dump
+0070.742 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_rate_limits.table.tmpr2.gz (106/75/fopen): adding to final database dump
+0070.743 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_rate_limits.table.gz (107/75/fopen): adding to final database dump
+0070.744 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_webhooks.table.tmpr0.gz (108/75/fopen): adding to final database dump
+0070.746 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wc_webhooks.table.gz (109/75/fopen): adding to final database dump
+0070.747 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wcpdf_invoice_number.table.tmpr15.gz (110/75/fopen): adding to final database dump
+0070.748 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wcpdf_invoice_number.table.gz (111/75/fopen): adding to final database dump
+0070.750 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_api_keys.table.tmpr0.gz (112/75/fopen): adding to final database dump
+0070.751 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_api_keys.table.gz (113/75/fopen): adding to final database dump
+0070.752 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_attribute_taxonomies.table.tmpr3.gz (114/75/fopen): adding to final database dump
+0070.753 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_attribute_taxonomies.table.gz (115/75/fopen): adding to final database dump
+0070.755 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_downloadable_product_permissions.table.tmpr0.gz (116/75/fopen): adding to final database dump
+0070.756 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_downloadable_product_permissions.table.gz (117/75/fopen): adding to final database dump
+0070.757 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_log.table.tmpr0.gz (118/75/fopen): adding to final database dump
+0070.759 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_log.table.gz (119/75/fopen): adding to final database dump
+0070.760 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_order_items.table.tmpr46.gz (120/75/fopen): adding to final database dump
+0070.761 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_order_items.table.gz (121/75/fopen): adding to final database dump
+0070.763 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_payment_tokens.table.tmpr0.gz (122/75/fopen): adding to final database dump
+0070.764 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_payment_tokens.table.gz (123/75/fopen): adding to final database dump
+0070.765 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_sessions.table.tmpr770.gz (124/75/fopen): adding to final database dump
+0070.767 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_sessions.table.gz (125/75/fopen): adding to final database dump
+0070.768 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_shipping_zone_locations.table.tmpr2.gz (126/75/fopen): adding to final database dump
+0070.769 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_shipping_zone_locations.table.gz (127/75/fopen): adding to final database dump
+0070.771 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_shipping_zone_methods.table.tmpr9.gz (128/75/fopen): adding to final database dump
+0070.772 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_shipping_zone_methods.table.gz (129/75/fopen): adding to final database dump
+0070.773 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_shipping_zones.table.tmpr2.gz (130/75/fopen): adding to final database dump
+0070.774 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_shipping_zones.table.gz (131/75/fopen): adding to final database dump
+0070.776 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_tax_rate_locations.table.tmpr0.gz (132/75/fopen): adding to final database dump
+0070.777 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_tax_rate_locations.table.gz (133/75/fopen): adding to final database dump
+0070.778 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_tax_rates.table.tmpr0.gz (134/75/fopen): adding to final database dump
+0070.780 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woocommerce_tax_rates.table.gz (135/75/fopen): adding to final database dump
+0070.781 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woof_query_cache.table.tmpr1.gz (136/75/fopen): adding to final database dump
+0070.782 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_woof_query_cache.table.gz (137/75/fopen): adding to final database dump
+0070.784 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wpforms_tasks_meta.table.tmpr13.gz (138/75/fopen): adding to final database dump
+0070.785 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_wpforms_tasks_meta.table.gz (139/75/fopen): adding to final database dump
+0070.786 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_yoast_indexable.table.tmpr1069.gz (140/75/fopen): adding to final database dump
+0070.788 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_yoast_indexable.table.gz (141/75/fopen): adding to final database dump
+0070.789 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_yoast_indexable_hierarchy.table.tmpr1001.gz (142/75/fopen): adding to final database dump
+0070.790 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_yoast_indexable_hierarchy.table.gz (143/75/fopen): adding to final database dump
+0070.792 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_yoast_migrations.table.tmpr25.gz (144/75/fopen): adding to final database dump
+0070.793 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_yoast_migrations.table.gz (145/75/fopen): adding to final database dump
+0070.794 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_yoast_primary_term.table.tmpr44.gz (146/75/fopen): adding to final database dump
+0070.796 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_yoast_primary_term.table.gz (147/75/fopen): adding to final database dump
+0070.797 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_yoast_seo_links.table.tmpr783.gz (148/75/fopen): adding to final database dump
+0070.798 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db-table-wply_yoast_seo_links.table.gz (149/75/fopen): adding to final database dump
+0070.806 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db.gz: finished writing out complete database file (9036 KB)
+0071.013 (0) Total database tables backed up: 75 (backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db.gz, size: 9252934, sha1: 8783a60cba9c3d42fd0d7f7aac66800557b9a1f8, sha256: 5a09a1eb2e344460e9d366d8c62ca45ce78ff5d00d24907f726efbdc15f51475)
+0071.020 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-plugins.zip: plugins: This file has already been successfully uploaded
+0071.020 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-themes.zip: themes: This file has already been successfully uploaded
+0071.021 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-uploads.zip: uploads: This file has already been successfully uploaded
+0071.022 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-others.zip: others: This file has already been successfully uploaded
+0071.023 (0) backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0071.024 (0) Saving backup history. Total backup size: 184.8 MB
+0071.027 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0071.031 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0071.032 (0) No remote despatch: user chose no remote backup service
+0071.033 (0) Recording as successfully uploaded: backup_2023-07-02-2258_L039Atelier_de_Publicitizz_01aaccfe132c-db.gz
+0071.037 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0071.038 (0) Number of backup sets in history: 5; groups (db): 1
+0071.039 (0) Examining (for databases) backup set with group_id=0, nonce=01aaccfe132c, datestamp=1688331490 (Jul 02 2023 20:58:10)
+0071.040 (0) This backup set is the backup set just made, so will not be deleted.
+0071.040 (0) Examining (for databases) backup set with group_id=0, nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0071.040 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0071.041 (0) Examining (for databases) backup set with group_id=0, nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0071.041 (0) Examining (for databases) backup set with group_id=0, nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0071.041 (0) 1688244309: db: this set includes a database (backup_2023-07-01-2245_L039Atelier_de_Publicitizz_a7a35c23dab8-db.gz); db count is now 2
+0071.041 (0) 1688244309: db: over retain limit (2); will delete this database
+0071.043 (0) This backup set is now empty; will remove from history
+0071.044 (0) Deleting log file (log.a7a35c23dab8.txt)
+0071.045 (0) Examining (for databases) backup set with group_id=0, nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0071.045 (0) Number of backup sets in history: 4; groups (files): 1
+0071.046 (0) Examining (for files) backup set with nonce=01aaccfe132c, datestamp=1688331490 (Jul 02 2023 20:58:10)
+0071.046 (0) This backup set is the backup set just made, so will not be deleted.
+0071.047 (0) This backup set is the backup set just made, so will not be deleted.
+0071.047 (0) This backup set is the backup set just made, so will not be deleted.
+0071.047 (0) This backup set is the backup set just made, so will not be deleted.
+0071.047 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0071.048 (0) Examining (for files) backup set with nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0071.048 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0071.050 (0) Examining (for files) backup set with nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0071.050 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0071.051 (0) Examining (for files) backup set with nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0071.051 (0) plugins: over retain limit (2); will delete this file entity
+0071.051 (0) themes: over retain limit (2); will delete this file entity
+0071.051 (0) uploads: over retain limit (2); will delete this file entity
+0071.051 (0) others: over retain limit (2); will delete this file entity
+0071.052 (0) This backup set is now empty; will remove from history
+0071.053 (0) Deleting log file (log.79a32e0eb164.txt)
+0071.077 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0071.081 (0) Resume backup (01aaccfe132c, 0): finish run
+0071.084 (0) Decremented the semaphore (fd) by 1
+0071.086 (0) Semaphore (fd) unlocked
+0071.088 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0071.093 (0) The backup apparently succeeded and is now complete
+0071.094 (0) No email will/can be sent - the user has not configured an email address.
+0071.096 (0) La sauvegarde a apparemment réussi et est maintenant terminée

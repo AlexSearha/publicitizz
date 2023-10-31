@@ -1,0 +1,180 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce - APG NIF/CIF/NIE field\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-01 13:44+0000\n"
+"POT-Revision-Date: Sat Aug 13 2016 00:23:19 GMT+0200 (CEST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: apg-city.php:45
+msgid "APG City"
+msgstr ""
+
+#: apg-city.php:45
+msgid "City field"
+msgstr ""
+
+#: apg-city.php:67
+msgctxt "placeholder"
+msgid "Select city name"
+msgstr ""
+
+#: apg-city.php:76 apg-city.php:99
+msgid "Select city name"
+msgstr ""
+
+#: apg-city.php:77 apg-city.php:100
+msgid "My city isn't on the list"
+msgstr ""
+
+#: apg-city.php:115
+msgid ""
+"Please enter a valid <strong>billing Town / City</strong>. JavaScript is "
+"required."
+msgstr ""
+
+#: apg-city.php:115
+msgid ""
+"Please enter a valid <strong>shipping Town / City</strong>. JavaScript is "
+"required."
+msgstr ""
+
+#: apg-city.php:141
+msgid "This plugin require WooCommerce active to run!"
+msgstr ""
+
+#: apg-city.php:149
+#, php-format
+msgid "Please, update your %s. Google Maps API Key now is required."
+msgstr ""
+
+#: apg-city.php:149 includes/admin/funciones-apg.php:39
+msgid "Settings"
+msgstr ""
+
+#: apg-city.php:149
+msgid "settings"
+msgstr ""
+
+#: includes/cuadro-informacion.php:5
+msgid "If you enjoyed and find helpful this plugin, please make a donation:"
+msgstr ""
+
+#: includes/cuadro-informacion.php:7 includes/admin/funciones-apg.php:22
+msgid "Make a donation by "
+msgstr ""
+
+#: includes/cuadro-informacion.php:17
+msgid "Follow us:"
+msgstr ""
+
+#: includes/cuadro-informacion.php:19 includes/admin/funciones-apg.php:24
+#: includes/admin/funciones-apg.php:24 includes/admin/funciones-apg.php:24
+#: includes/admin/funciones-apg.php:24
+msgid "Follow us on "
+msgstr ""
+
+#: includes/cuadro-informacion.php:23
+msgid "More plugins:"
+msgstr ""
+
+#: includes/cuadro-informacion.php:25 includes/admin/funciones-apg.php:25
+msgid "More plugins on "
+msgstr ""
+
+#: includes/cuadro-informacion.php:31
+msgid "Contact with us:"
+msgstr ""
+
+#: includes/cuadro-informacion.php:33 includes/admin/funciones-apg.php:26
+#: includes/admin/funciones-apg.php:26
+msgid "Contact with us by "
+msgstr ""
+
+#: includes/cuadro-informacion.php:37
+msgid "Documentation and Support:"
+msgstr ""
+
+#: includes/cuadro-informacion.php:39 includes/admin/funciones-apg.php:40
+msgid "Support"
+msgstr ""
+
+#: includes/cuadro-informacion.php:44
+#, php-format
+msgid "Please, rate %s:"
+msgstr ""
+
+#: includes/formulario.php:5
+msgid "Google Maps API Key is a required field."
+msgstr ""
+
+#: includes/formulario.php:16
+msgid "APG City Options."
+msgstr ""
+
+#. Description of the plugin
+#: includes/formulario.php:20
+msgid "Add to WooCommerce an automatic city name generated from postcode."
+msgstr ""
+
+#: includes/formulario.php:30
+msgid "Select a public API"
+msgstr ""
+
+#: includes/formulario.php:31
+msgid "Select which API would you want to use"
+msgstr ""
+
+#: includes/formulario.php:44
+msgid "Google Maps API Key"
+msgstr ""
+
+#: includes/formulario.php:45
+msgid "Add your own Google Maps API Key."
+msgstr ""
+
+#: includes/formulario.php:50
+#, php-format
+msgid "Get your own API Key from %s."
+msgstr ""
+
+#: includes/admin/funciones-apg.php:39
+msgid "Settings of "
+msgstr ""
+
+#: includes/admin/funciones-apg.php:40
+msgid "Support of "
+msgstr ""
+
+#. Name of the plugin
+msgid "WC - APG City"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/wc-apg-city/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Art Project Group"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://artprojectgroup.es/"
+msgstr ""

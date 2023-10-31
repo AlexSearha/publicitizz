@@ -1,0 +1,398 @@
+0000.000 (0) Opened log file at time: Sat, 01 Jul 2023 21:32:15 +0000 on https://www.publicitizz.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.6 WP: 6.2.2 PHP: 7.4.33 (litespeed, Linux plaf.o2switch.net 4.18.0-348.12.2.lve.el7h.x86_64 #1 SMP Mon Jan 24 05:45:10 EST 2022 x86_64) MySQL: 10.6.14-MariaDB (max packet size=268435456) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 39.2M | 42M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.047 (0) Free space on disk containing Updraft's temporary directory: 492820.4 MB
+0000.051 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.052 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.056 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1687641879, seconds_ago=605256)
+0000.060 (0) Set semaphore last lock (f) time to 2023-07-01 21:32:15
+0000.062 (0) Semaphore lock (f) complete
+0000.067 (0) Backup run: resumption=0, nonce=6ce5933240b0, file_nonce=6ce5933240b0 begun at=1688247135 (0s ago), job type=backup
+0000.070 (0) Scheduling a resumption (1) after 300 seconds (1688247435) in case this run gets aborted
+0000.074 (0) Checking if we have a zip executable available
+0000.076 (0) Testing: /usr/bin/zip
+0000.103 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.105 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.107 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.108 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.110 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.116 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.118 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.158 (0) Working binary zip found: /usr/bin/zip
+0000.161 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.163 (0) Creation of backups of directories: beginning
+0000.168 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.949 (0) Total entities for the zip file: 2988 directories, 14473 files (0 skipped as non-modified), 215.7 MB
+0002.953 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.109 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: size is now: 0.70 MB
+0003.115 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 100 files added (on-disk size: 726.6 KB)
+0003.119 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 200 files added (on-disk size: 726.6 KB)
+0003.123 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 300 files added (on-disk size: 726.6 KB)
+0003.127 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 400 files added (on-disk size: 726.6 KB)
+0003.131 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 500 files added (on-disk size: 726.6 KB)
+0003.135 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 600 files added (on-disk size: 726.6 KB)
+0003.139 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 700 files added (on-disk size: 726.6 KB)
+0003.143 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 800 files added (on-disk size: 726.6 KB)
+0003.147 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 900 files added (on-disk size: 726.6 KB)
+0003.151 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 1000 files added (on-disk size: 726.6 KB)
+0003.152 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.8 MB, 14473 files batched, 1001 (1002) added so far); re-opening (prior size: 726.6 KB)
+0010.363 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: size is now: 9.50 MB
+0010.371 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 1100 files added (on-disk size: 9731.8 KB)
+0010.375 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 1200 files added (on-disk size: 9731.8 KB)
+0010.379 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 1300 files added (on-disk size: 9731.8 KB)
+0010.383 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 1400 files added (on-disk size: 9731.8 KB)
+0010.388 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 1500 files added (on-disk size: 9731.8 KB)
+0010.391 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 1600 files added (on-disk size: 9731.8 KB)
+0010.395 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 1700 files added (on-disk size: 9731.8 KB)
+0010.399 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 1800 files added (on-disk size: 9731.8 KB)
+0010.403 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 1900 files added (on-disk size: 9731.8 KB)
+0010.407 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 2000 files added (on-disk size: 9731.8 KB)
+0010.409 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8 MB, 14473 files batched, 1001 (2003) added so far); re-opening (prior size: 9731.8 KB)
+0012.570 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: size is now: 11.90 MB
+0012.580 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 2100 files added (on-disk size: 12229.5 KB)
+0012.585 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 2200 files added (on-disk size: 12229.5 KB)
+0012.589 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 2300 files added (on-disk size: 12229.5 KB)
+0012.593 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 2400 files added (on-disk size: 12229.5 KB)
+0012.597 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 2500 files added (on-disk size: 12229.5 KB)
+0012.601 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 2600 files added (on-disk size: 12229.5 KB)
+0012.604 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 2700 files added (on-disk size: 12229.5 KB)
+0012.608 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 14473 files batched, 787 (2790) added so far); re-opening (prior size: 12229.5 KB)
+0015.118 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: size is now: 16.60 MB
+0015.124 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 3.2 s, rate: 8060.7 KB/s)
+0015.127 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.1784129142761, normalised_time=3.1759073852297, max_time=15.124962091446, data points known=1, old_max_bytes=26214400, new_max_bytes=74906177)
+0015.131 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 2800 files added (on-disk size: 17006.2 KB)
+0015.137 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 2900 files added (on-disk size: 17006.2 KB)
+0015.142 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 3000 files added (on-disk size: 17006.2 KB)
+0015.148 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 3100 files added (on-disk size: 17006.2 KB)
+0015.154 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 3200 files added (on-disk size: 17006.2 KB)
+0015.160 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 3300 files added (on-disk size: 17006.2 KB)
+0015.165 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 3400 files added (on-disk size: 17006.2 KB)
+0015.170 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 3500 files added (on-disk size: 17006.2 KB)
+0015.176 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 3600 files added (on-disk size: 17006.2 KB)
+0015.182 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 3700 files added (on-disk size: 17006.2 KB)
+0015.187 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (29.4 MB, 14473 files batched, 1001 (3791) added so far); re-opening (prior size: 17006.2 KB)
+0018.936 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: size is now: 26.10 MB
+0018.940 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 3800 files added (on-disk size: 26753 KB)
+0018.943 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 3900 files added (on-disk size: 26753 KB)
+0018.945 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 4000 files added (on-disk size: 26753 KB)
+0018.947 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 4100 files added (on-disk size: 26753 KB)
+0018.950 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 4200 files added (on-disk size: 26753 KB)
+0018.953 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 4300 files added (on-disk size: 26753 KB)
+0018.955 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 4400 files added (on-disk size: 26753 KB)
+0018.957 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 4500 files added (on-disk size: 26753 KB)
+0018.960 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 4600 files added (on-disk size: 26753 KB)
+0018.963 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 4700 files added (on-disk size: 26753 KB)
+0018.966 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.6 MB, 14473 files batched, 1001 (4792) added so far); re-opening (prior size: 26753 KB)
+0023.194 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 4800 files added (on-disk size: 29566.4 KB)
+0023.199 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 4900 files added (on-disk size: 29566.4 KB)
+0023.202 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 5000 files added (on-disk size: 29566.4 KB)
+0023.206 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 5100 files added (on-disk size: 29566.4 KB)
+0023.210 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 5200 files added (on-disk size: 29566.4 KB)
+0023.214 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 5300 files added (on-disk size: 29566.4 KB)
+0023.218 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 5400 files added (on-disk size: 29566.4 KB)
+0023.221 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 5500 files added (on-disk size: 29566.4 KB)
+0023.225 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 5600 files added (on-disk size: 29566.4 KB)
+0023.229 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 5700 files added (on-disk size: 29566.4 KB)
+0023.233 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.9 MB, 14473 files batched, 1001 (5793) added so far); re-opening (prior size: 29566.4 KB)
+0027.597 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 5800 files added (on-disk size: 33829.8 KB)
+0027.602 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 5900 files added (on-disk size: 33829.8 KB)
+0027.605 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 6000 files added (on-disk size: 33829.8 KB)
+0027.609 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 6100 files added (on-disk size: 33829.8 KB)
+0027.613 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 6200 files added (on-disk size: 33829.8 KB)
+0027.617 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 6300 files added (on-disk size: 33829.8 KB)
+0027.621 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 6400 files added (on-disk size: 33829.8 KB)
+0027.625 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 6500 files added (on-disk size: 33829.8 KB)
+0027.629 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 6600 files added (on-disk size: 33829.8 KB)
+0027.633 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 6700 files added (on-disk size: 33829.8 KB)
+0027.637 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.9 MB, 14473 files batched, 1001 (6794) added so far); re-opening (prior size: 33829.8 KB)
+0031.915 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: size is now: 43.30 MB
+0031.920 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 6800 files added (on-disk size: 44343.6 KB)
+0031.924 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 6900 files added (on-disk size: 44343.6 KB)
+0031.928 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 7000 files added (on-disk size: 44343.6 KB)
+0031.931 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 7100 files added (on-disk size: 44343.6 KB)
+0031.935 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 7200 files added (on-disk size: 44343.6 KB)
+0031.939 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 7300 files added (on-disk size: 44343.6 KB)
+0031.943 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 7400 files added (on-disk size: 44343.6 KB)
+0031.947 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 7500 files added (on-disk size: 44343.6 KB)
+0031.951 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 7600 files added (on-disk size: 44343.6 KB)
+0031.954 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 7700 files added (on-disk size: 44343.6 KB)
+0031.958 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.1 MB, 14473 files batched, 1001 (7795) added so far); re-opening (prior size: 44343.6 KB)
+0034.751 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 7800 files added (on-disk size: 48030.9 KB)
+0034.755 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 7900 files added (on-disk size: 48030.9 KB)
+0034.759 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 8000 files added (on-disk size: 48030.9 KB)
+0034.763 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 8100 files added (on-disk size: 48030.9 KB)
+0034.767 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 8200 files added (on-disk size: 48030.9 KB)
+0034.771 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 8300 files added (on-disk size: 48030.9 KB)
+0034.775 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 8400 files added (on-disk size: 48030.9 KB)
+0034.779 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 8500 files added (on-disk size: 48030.9 KB)
+0034.783 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 8600 files added (on-disk size: 48030.9 KB)
+0034.787 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 8700 files added (on-disk size: 48030.9 KB)
+0034.790 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.9 MB, 14473 files batched, 1001 (8796) added so far); re-opening (prior size: 48030.9 KB)
+0037.332 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 8800 files added (on-disk size: 50511.6 KB)
+0037.336 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 8900 files added (on-disk size: 50511.6 KB)
+0037.340 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 9000 files added (on-disk size: 50511.6 KB)
+0037.344 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 9100 files added (on-disk size: 50511.6 KB)
+0037.348 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 9200 files added (on-disk size: 50511.6 KB)
+0037.352 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 9300 files added (on-disk size: 50511.6 KB)
+0037.355 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 9400 files added (on-disk size: 50511.6 KB)
+0037.358 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 9500 files added (on-disk size: 50511.6 KB)
+0037.361 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 9600 files added (on-disk size: 50511.6 KB)
+0037.364 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 9700 files added (on-disk size: 50511.6 KB)
+0037.367 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.8 MB, 14473 files batched, 1001 (9797) added so far); re-opening (prior size: 50511.6 KB)
+0039.945 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 9800 files added (on-disk size: 54595.9 KB)
+0039.952 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 9900 files added (on-disk size: 54595.9 KB)
+0039.958 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 10000 files added (on-disk size: 54595.9 KB)
+0039.964 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 10100 files added (on-disk size: 54595.9 KB)
+0039.970 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 10200 files added (on-disk size: 54595.9 KB)
+0039.976 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 10300 files added (on-disk size: 54595.9 KB)
+0039.982 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 10400 files added (on-disk size: 54595.9 KB)
+0039.988 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 10500 files added (on-disk size: 54595.9 KB)
+0039.994 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 10600 files added (on-disk size: 54595.9 KB)
+0040.000 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 10700 files added (on-disk size: 54595.9 KB)
+0040.006 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8 MB, 14473 files batched, 1001 (10798) added so far); re-opening (prior size: 54595.9 KB)
+0043.577 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 10800 files added (on-disk size: 57214.9 KB)
+0043.581 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 10900 files added (on-disk size: 57214.9 KB)
+0043.585 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 11000 files added (on-disk size: 57214.9 KB)
+0043.589 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 11100 files added (on-disk size: 57214.9 KB)
+0043.593 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 11200 files added (on-disk size: 57214.9 KB)
+0043.597 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 11300 files added (on-disk size: 57214.9 KB)
+0043.601 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 11400 files added (on-disk size: 57214.9 KB)
+0043.605 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 11500 files added (on-disk size: 57214.9 KB)
+0043.609 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 11600 files added (on-disk size: 57214.9 KB)
+0043.613 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 11700 files added (on-disk size: 57214.9 KB)
+0043.616 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.5 MB, 14473 files batched, 1001 (11799) added so far); re-opening (prior size: 57214.9 KB)
+0045.840 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 11800 files added (on-disk size: 63747.2 KB)
+0045.844 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 11900 files added (on-disk size: 63747.2 KB)
+0045.848 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 12000 files added (on-disk size: 63747.2 KB)
+0045.852 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 12100 files added (on-disk size: 63747.2 KB)
+0045.856 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 12200 files added (on-disk size: 63747.2 KB)
+0045.859 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 12300 files added (on-disk size: 63747.2 KB)
+0045.863 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 12400 files added (on-disk size: 63747.2 KB)
+0045.867 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 12500 files added (on-disk size: 63747.2 KB)
+0045.871 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 12600 files added (on-disk size: 63747.2 KB)
+0045.874 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 12700 files added (on-disk size: 63747.2 KB)
+0045.878 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.8 MB, 14473 files batched, 1001 (12800) added so far); re-opening (prior size: 63747.2 KB)
+0048.717 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 12800 files added (on-disk size: 65076.1 KB)
+0048.721 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 12900 files added (on-disk size: 65076.1 KB)
+0048.725 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 13000 files added (on-disk size: 65076.1 KB)
+0048.728 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 13100 files added (on-disk size: 65076.1 KB)
+0048.732 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 13200 files added (on-disk size: 65076.1 KB)
+0048.736 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 13300 files added (on-disk size: 65076.1 KB)
+0048.740 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 13400 files added (on-disk size: 65076.1 KB)
+0048.744 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 13500 files added (on-disk size: 65076.1 KB)
+0048.748 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 13600 files added (on-disk size: 65076.1 KB)
+0048.751 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 13700 files added (on-disk size: 65076.1 KB)
+0048.755 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 13800 files added (on-disk size: 65076.1 KB)
+0048.757 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.3 MB, 14473 files batched, 1001 (13801) added so far); re-opening (prior size: 65076.1 KB)
+0051.799 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 13900 files added (on-disk size: 66909.5 KB)
+0051.802 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 14000 files added (on-disk size: 66909.5 KB)
+0051.806 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 14100 files added (on-disk size: 66909.5 KB)
+0051.809 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 14200 files added (on-disk size: 66909.5 KB)
+0051.812 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 14300 files added (on-disk size: 66909.5 KB)
+0051.816 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.tmp: 14400 files added (on-disk size: 66909.5 KB)
+0056.825 (0) Creating zip file manifest (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.list-temp.tmp)
+0056.857 (0) Successfully created zip file manifest (size: 1322503)
+0057.792 (0) Created plugins zip (0) - 75347.8 KB in 57.6 s (1308.3 KB/s) (sha1: a79dec5bdac9f1892f3dda7433aa4c0932aca438, sha256: ec7bdb03475c1d5a9dc2812dd800454beee8d919a682454f588ecdfae425ddfc)
+0057.805 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0057.806 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-780e2e946720b3d8e39dad107274adca)
+0057.806 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0057.808 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0058.249 (0) Dropbox: quota usage: used=369.2 MB, total=2048 MB, available=1678.8 MB
+0058.252 (0) Dropbox: Attempt to upload: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip to: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip
+0059.659 (0) Dropbox chunked upload: 1.4 % uploaded (pid_upload_session:ABIGhlbzK_E9IumhBKEYHJqiZj_HK5V394TLlv9ndkBfqk0-SQ, 1048576, 6144 KB)
+0062.447 (0) Dropbox chunked upload: 9.5 % uploaded (pid_upload_session:ABIGhlbzK_E9IumhBKEYHJqiZj_HK5V394TLlv9ndkBfqk0-SQ, 7340032, 10240 KB)
+0065.228 (0) Dropbox chunked upload: 23.1 % uploaded (pid_upload_session:ABIGhlbzK_E9IumhBKEYHJqiZj_HK5V394TLlv9ndkBfqk0-SQ, 17825792, 10240 KB)
+0067.806 (0) Dropbox chunked upload: 36.7 % uploaded (pid_upload_session:ABIGhlbzK_E9IumhBKEYHJqiZj_HK5V394TLlv9ndkBfqk0-SQ, 28311552, 10240 KB)
+0070.489 (0) Dropbox chunked upload: 50.3 % uploaded (pid_upload_session:ABIGhlbzK_E9IumhBKEYHJqiZj_HK5V394TLlv9ndkBfqk0-SQ, 38797312, 10240 KB)
+0073.603 (0) Dropbox chunked upload: 63.9 % uploaded (pid_upload_session:ABIGhlbzK_E9IumhBKEYHJqiZj_HK5V394TLlv9ndkBfqk0-SQ, 49283072, 10240 KB)
+0076.408 (0) Dropbox chunked upload: 77.5 % uploaded (pid_upload_session:ABIGhlbzK_E9IumhBKEYHJqiZj_HK5V394TLlv9ndkBfqk0-SQ, 59768832, 10240 KB)
+0078.911 (0) Dropbox chunked upload: 91.1 % uploaded (pid_upload_session:ABIGhlbzK_E9IumhBKEYHJqiZj_HK5V394TLlv9ndkBfqk0-SQ, 70254592, 10240 KB)
+0080.595 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIGhlbzK_E9IumhBKEYHJqiZj_HK5V394TLlv9ndkBfqk0-SQ, 77156193, 10240 KB)
+0082.016 (0) Recording as successfully uploaded: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip
+0082.042 (0) Deleting local file: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip: OK
+0082.044 (0) Dropbox: File upload success (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip): 75347 KB in 23s (3167 KB/s)
+0082.054 (0) Beginning creation of dump of themes (split every: 400 MB)
+0082.384 (0) Total entities for the zip file: 317 directories, 736 files (0 skipped as non-modified), 20.6 MB
+0082.389 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0082.393 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0082.397 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0082.401 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0082.405 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0082.410 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0082.414 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0085.073 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip.tmp: size is now: 7.70 MB
+0085.095 (0) Creating zip file manifest (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip.list-temp.tmp)
+0085.100 (0) Successfully created zip file manifest (size: 63051)
+0085.289 (0) Created themes zip (0) - 7857.8 KB in 3.2 s (2468.2 KB/s) (sha1: 072f1bbe9aa3f44c59e157b85bf5e162fab17c31, sha256: cc1740ae1fb37dff2e8125f19bc5177a4fb16de0b27dd6a1265bc898cf783cf6)
+0085.299 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0085.300 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-780e2e946720b3d8e39dad107274adca)
+0085.302 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0085.304 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0085.733 (0) Dropbox: quota usage: used=442.8 MB, total=2048 MB, available=1605.2 MB
+0085.734 (0) Dropbox: Attempt to upload: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip to: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip
+0088.303 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIGhoEpZWFVcKYV46wwRr9XQdTIgFkm7Iocl1WsPxleeQ5NAA, 8046360, 10240 KB)
+0089.694 (0) Recording as successfully uploaded: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip
+0089.701 (0) Deleting local file: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip: OK
+0089.702 (0) Dropbox: File upload success (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip): 7857 KB in 3s (1980 KB/s)
+0089.711 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0089.712 (0) Looking for candidates to backup in: /home/btho3472/publicitizz.com/wp-content/uploads
+0089.714 (0) finding files: mailchimp-for-wp: adding to list (1)
+0089.715 (0) finding files: sb-instagram-feed-images: adding to list (2)
+0089.716 (0) finding files: useanyfont: adding to list (3)
+0089.718 (0) finding files: 2021: adding to list (4)
+0089.719 (0) finding files: forminator: adding to list (5)
+0089.720 (0) finding files: wc-logs: adding to list (6)
+0089.722 (0) finding files: woocommerce-placeholder.png: adding to list (7)
+0089.723 (0) finding files: cache: adding to list (8)
+0089.724 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (9)
+0089.725 (0) finding files: 2023: adding to list (10)
+0089.727 (0) finding files: 2022: adding to list (11)
+0089.728 (0) finding files: chronopost: adding to list (12)
+0089.729 (0) finding files: wpo_wcpdf_8fc243a2f05fba975b30f2fcc843374f: adding to list (13)
+0089.731 (0) finding files: astra-sites: adding to list (14)
+0089.732 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (15)
+0089.733 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (16)
+0089.735 (0) finding files: trustindex-google-widget.css: adding to list (17)
+0089.736 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (18)
+0089.737 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (19)
+0089.739 (0) finding files: wpforms: adding to list (20)
+0089.740 (0) finding files: woocommerce_uploads: adding to list (21)
+0089.741 (0) finding files: elementor: adding to list (22)
+0089.743 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (23)
+0089.744 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0089.912 (0) Total entities for the zip file: 53 directories, 2076 files (0 skipped as non-modified), 95.6 MB
+0089.917 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0089.921 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0089.925 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0089.929 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0089.932 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0089.936 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0089.940 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0089.943 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0089.947 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0089.950 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0089.952 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.4 MB, 2076 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0092.499 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: size is now: 16.20 MB
+0092.507 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 1100 files added (on-disk size: 16575.4 KB)
+0092.510 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 1200 files added (on-disk size: 16575.4 KB)
+0092.514 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 1300 files added (on-disk size: 16575.4 KB)
+0092.518 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 1400 files added (on-disk size: 16575.4 KB)
+0092.521 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 1500 files added (on-disk size: 16575.4 KB)
+0092.525 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 1600 files added (on-disk size: 16575.4 KB)
+0092.529 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 1700 files added (on-disk size: 16575.4 KB)
+0092.532 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 1800 files added (on-disk size: 16575.4 KB)
+0092.536 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 1900 files added (on-disk size: 16575.4 KB)
+0092.539 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 71.4 MB added on this batch (71.5 MB, 2076 files batched, 947 (1948) added so far); re-opening (prior size: 16575.4 KB)
+0097.580 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: size is now: 87.80 MB
+0097.586 (0) A useful amount of data was added after this amount of zip processing: 5.6 s (normalised: 5.6 s, rate: 12970.9 KB/s)
+0097.589 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.6408889293671, normalised_time=5.6396026187502, max_time=97.587280988693, data points known=1, old_max_bytes=74906177, new_max_bytes=209715200)
+0097.594 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.tmp: 2000 files added (on-disk size: 89868.4 KB)
+0101.640 (0) Creating zip file manifest (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.list-temp.tmp)
+0101.650 (0) Successfully created zip file manifest (size: 124755)
+0102.829 (0) Created uploads zip (0) - 93659.4 KB in 13 s (7183.7 KB/s) (sha1: 7c19b94b4b1cb9e59114a62f648409dc0c63a432, sha256: 7a98a2c68598893032ecb2c82358983c0ba48448c307c27fe1d7316929af0e37)
+0102.834 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0102.835 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-780e2e946720b3d8e39dad107274adca)
+0102.836 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0102.838 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0103.259 (0) Dropbox: quota usage: used=450.4 MB, total=2048 MB, available=1597.6 MB
+0103.261 (0) Dropbox: Attempt to upload: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip to: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip
+0106.451 (0) Dropbox chunked upload: 10.9 % uploaded (pid_upload_session:ABIGhtNMtXMT-hBeUXcO5_SVTSlBW2xkDSKwFtWSPkSanu-O6A, 10485760, 10240 KB)
+0108.317 (0) Dropbox chunked upload: 21.9 % uploaded (pid_upload_session:ABIGhtNMtXMT-hBeUXcO5_SVTSlBW2xkDSKwFtWSPkSanu-O6A, 20971520, 10240 KB)
+0111.802 (0) Dropbox chunked upload: 32.8 % uploaded (pid_upload_session:ABIGhtNMtXMT-hBeUXcO5_SVTSlBW2xkDSKwFtWSPkSanu-O6A, 31457280, 10240 KB)
+0113.151 (0) Dropbox chunked upload: 43.7 % uploaded (pid_upload_session:ABIGhtNMtXMT-hBeUXcO5_SVTSlBW2xkDSKwFtWSPkSanu-O6A, 41943040, 10240 KB)
+0115.956 (0) Dropbox chunked upload: 54.7 % uploaded (pid_upload_session:ABIGhtNMtXMT-hBeUXcO5_SVTSlBW2xkDSKwFtWSPkSanu-O6A, 52428800, 10240 KB)
+0117.811 (0) Dropbox chunked upload: 65.6 % uploaded (pid_upload_session:ABIGhtNMtXMT-hBeUXcO5_SVTSlBW2xkDSKwFtWSPkSanu-O6A, 62914560, 10240 KB)
+0120.496 (0) Dropbox chunked upload: 76.5 % uploaded (pid_upload_session:ABIGhtNMtXMT-hBeUXcO5_SVTSlBW2xkDSKwFtWSPkSanu-O6A, 73400320, 10240 KB)
+0122.276 (0) Dropbox chunked upload: 87.5 % uploaded (pid_upload_session:ABIGhtNMtXMT-hBeUXcO5_SVTSlBW2xkDSKwFtWSPkSanu-O6A, 83886080, 10240 KB)
+0125.010 (0) Dropbox chunked upload: 98.4 % uploaded (pid_upload_session:ABIGhtNMtXMT-hBeUXcO5_SVTSlBW2xkDSKwFtWSPkSanu-O6A, 94371840, 10240 KB)
+0126.125 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIGhtNMtXMT-hBeUXcO5_SVTSlBW2xkDSKwFtWSPkSanu-O6A, 95907231, 10240 KB)
+0127.686 (0) Recording as successfully uploaded: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip
+0127.717 (0) Deleting local file: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip: OK
+0127.719 (0) Dropbox: File upload success (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip): 93659 KB in 24s (3829 KB/s)
+0127.727 (0) Beginning backup of other directories found in the content directory (index: 0)
+0127.729 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0127.730 (0) Looking for candidates to backup in: /home/btho3472/publicitizz.com/wp-content
+0127.731 (0) finding files: languages: adding to list (1)
+0127.732 (0) finding files: index.php: adding to list (2)
+0127.733 (0) finding files: fonts: adding to list (3)
+0127.735 (0) finding files: upgrade: skipping: excluded by options
+0127.736 (0) finding files: themes: skipping: this is the themes directory
+0127.737 (0) finding files: updraft: skipping: this is the updraft directory
+0127.738 (0) finding files: uploads: skipping: this is the uploads directory
+0127.739 (0) finding files: mu-plugins: adding to list (4)
+0127.741 (0) finding files: plugins: skipping: this is the plugins directory
+0127.801 (0) Total entities for the zip file: 5 directories, 444 files (0 skipped as non-modified), 9.7 MB
+0127.806 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0127.810 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0127.814 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0127.817 (0) Zip: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0129.398 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip.tmp: size is now: 2.80 MB
+0129.410 (0) Creating zip file manifest (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip.list-temp.tmp)
+0129.413 (0) Successfully created zip file manifest (size: 34412)
+0129.490 (0) Created others zip (0) - 2887.7 KB in 1.7 s (1696.5 KB/s) (sha1: eac3c4f042eb157d2ef9a5f2df59ab7d5c1769b4, sha256: 612762b0de03968ee7ba45f5562415fe1840621826e1b3a8f28312c476ffc271)
+0129.497 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0129.498 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-780e2e946720b3d8e39dad107274adca)
+0129.499 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0129.501 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0129.947 (0) Dropbox: quota usage: used=541.9 MB, total=2048 MB, available=1506.1 MB
+0129.949 (0) Dropbox: Attempt to upload: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip to: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip
+0131.588 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIGhiYrT_kF4Ys6tJCCuYyk1nTfnzhUK9pazV7gfVyGuvfTmQ, 2956978, 10240 KB)
+0133.215 (0) Recording as successfully uploaded: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip
+0133.220 (0) Deleting local file: backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip: OK
+0133.221 (0) Dropbox: File upload success (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip): 2887 KB in 3s (882 KB/s)
+0133.234 (0) Saving backup status to database (elements: 8)
+0133.239 (0) No database backup (wp) - not part of this run
+0133.243 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip: plugins: This file has already been successfully uploaded
+0133.245 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip: themes: This file has already been successfully uploaded
+0133.246 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip: uploads: This file has already been successfully uploaded
+0133.247 (0) backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip: others: This file has already been successfully uploaded
+0133.249 (0) Saving backup history. Total backup size: 175.5 MB
+0133.253 (0) Resume backup (6ce5933240b0, 0): finish run
+0133.256 (0) There were no more files that needed uploading
+0133.259 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0133.261 (0) Number of backup sets in history: 5; groups (db): 1
+0133.263 (0) Examining (for databases) backup set with group_id=0, nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0133.264 (0) Examining (for databases) backup set with group_id=0, nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0133.264 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0133.265 (0) Examining (for databases) backup set with group_id=0, nonce=9c1811d04421, datestamp=1688158116 (Jun 30 2023 20:48:36)
+0133.266 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0133.266 (0) Examining (for databases) backup set with group_id=0, nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0133.266 (0) Examining (for databases) backup set with group_id=0, nonce=6c464c509d3a, datestamp=1687038747 (Jun 17 2023 21:52:27)
+0133.266 (0) Number of backup sets in history: 5; groups (files): 1
+0133.267 (0) Examining (for files) backup set with nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0133.267 (0) This backup set is the backup set just made, so will not be deleted.
+0133.268 (0) This backup set is the backup set just made, so will not be deleted.
+0133.269 (0) This backup set is the backup set just made, so will not be deleted.
+0133.269 (0) This backup set is the backup set just made, so will not be deleted.
+0133.269 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0133.270 (0) Examining (for files) backup set with nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0133.270 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0133.271 (0) Examining (for files) backup set with nonce=9c1811d04421, datestamp=1688158116 (Jun 30 2023 20:48:36)
+0133.271 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0133.272 (0) Examining (for files) backup set with nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0133.272 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0133.273 (0) Examining (for files) backup set with nonce=6c464c509d3a, datestamp=1687038747 (Jun 17 2023 21:52:27)
+0133.273 (0) plugins: over retain limit (2); will delete this file entity
+0133.273 (0) themes: over retain limit (2); will delete this file entity
+0133.273 (0) uploads: over retain limit (2); will delete this file entity
+0133.273 (0) others: over retain limit (2); will delete this file entity
+0133.274 (0) Dropbox: request deletion: backup_2023-06-17-2352_L039Atelier_de_Publicitizz_6c464c509d3a-plugins.zip
+0134.004 (0) Dropbox: deletion succeeded
+0134.006 (0) Dropbox: request deletion: backup_2023-06-17-2352_L039Atelier_de_Publicitizz_6c464c509d3a-themes.zip
+0134.757 (0) Dropbox: deletion succeeded
+0134.759 (0) Dropbox: request deletion: backup_2023-06-17-2352_L039Atelier_de_Publicitizz_6c464c509d3a-uploads.zip
+0135.496 (0) Dropbox: deletion succeeded
+0135.499 (0) Dropbox: request deletion: backup_2023-06-17-2352_L039Atelier_de_Publicitizz_6c464c509d3a-others.zip
+0136.151 (0) Dropbox: deletion succeeded
+0136.180 (0) This backup set is now empty; will remove from history
+0136.182 (0) Deleting log file (log.6c464c509d3a.txt)
+0136.204 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0136.211 (0) Decremented the semaphore (f) by 1
+0136.213 (0) Semaphore (f) unlocked
+0136.214 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0136.220 (0) The backup apparently succeeded and is now complete
+0136.221 (0) Deleting zip manifest (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-plugins.zip.list.tmp)
+0136.223 (0) Deleting zip manifest (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-themes.zip.list.tmp)
+0136.224 (0) Deleting zip manifest (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-uploads.zip.list.tmp)
+0136.226 (0) Deleting zip manifest (backup_2023-07-01-2332_L039Atelier_de_Publicitizz_6ce5933240b0-others.zip.list.tmp)
+0136.227 (0) No email will/can be sent - the user has not configured an email address.
+0136.228 (0) La sauvegarde a apparemment réussi et est maintenant terminée

@@ -1,0 +1,520 @@
+0000.000 (0) Opened log file at time: Sun, 02 Jul 2023 20:55:44 +0000 on https://www.publicitizz.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.6 WP: 6.2.2 PHP: 7.4.33 (litespeed, Linux plaf.o2switch.net 4.18.0-348.12.2.lve.el7h.x86_64 #1 SMP Mon Jan 24 05:45:10 EST 2022 x86_64) MySQL: 10.6.14-MariaDB (max packet size=268435456) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 39.1M | 42M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.068 (0) Free space on disk containing Updraft's temporary directory: 492681 MB
+0000.071 (0) Tasks: Backup files:  (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.072 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.075 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1688244309, seconds_ago=87035)
+0000.079 (0) Set semaphore last lock (d) time to 2023-07-02 20:55:44
+0000.080 (0) Semaphore lock (d) complete
+0000.085 (0) Backup run: resumption=0, nonce=b4800b14c6aa, file_nonce=b4800b14c6aa begun at=1688331344 (0s ago), job type=backup
+0000.087 (0) Scheduling a resumption (1) after 300 seconds (1688331644) in case this run gets aborted
+0000.091 (0) This backup run is not intended for files - skipping
+0000.092 (0) Beginning creation of database dump (WordPress DB)
+0000.093 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0000.096 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.122 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wply_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1465 bytes total)
+0000.124 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.142 (0) Table wply_options: Total expected rows (approximate): 1244
+0000.356 (0) Table wply_options: Rows added in this batch (next record: 128554): 1260 (uncompressed bytes in this segment=5385601) in 0.22 seconds
+0000.363 (0) Table wply_options: finishing file(s) (2, 453.3 KB)
+0000.367 (0) Table wply_users: Total expected rows (via COUNT): 5
+0000.367 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.370 (0) Table wply_users: Rows added in this batch (next record: 14): 5 (uncompressed bytes in this segment=2005) in 0.00 seconds
+0000.373 (0) Table wply_users: finishing file(s) (2, 1 KB)
+0000.378 (0) Table wply_usermeta: Total expected rows (via COUNT): 272
+0000.379 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.384 (0) Table wply_usermeta: Rows added in this batch (next record: 726): 272 (uncompressed bytes in this segment=59682) in 0.01 seconds
+0000.389 (0) Table wply_usermeta: finishing file(s) (2, 10.9 KB)
+0000.394 (0) Table wply_actionscheduler_actions: Total expected rows (approximate): 1129
+0000.400 (0) Table wply_actionscheduler_actions: Rows added in this batch (next record: 4861): 87 (uncompressed bytes in this segment=39698) in 0.01 seconds
+0000.406 (0) Table wply_actionscheduler_actions: finishing file(s) (2, 3.2 KB)
+0000.410 (0) Table wply_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.411 (0) Table wply_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=639) in 0.00 seconds
+0000.419 (0) Table wply_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.423 (0) Table wply_actionscheduler_groups: Total expected rows (via COUNT): 9
+0000.425 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.427 (0) Table wply_actionscheduler_groups: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=926) in 0.00 seconds
+0000.432 (0) Table wply_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0000.437 (0) Table wply_actionscheduler_logs: Total expected rows (approximate): 3413
+0000.445 (0) Table wply_actionscheduler_logs: Rows added in this batch (next record: 14002): 257 (uncompressed bytes in this segment=46671) in 0.01 seconds
+0000.450 (0) Table wply_actionscheduler_logs: finishing file(s) (2, 3.7 KB)
+0000.457 (0) Table wply_commentmeta: Total expected rows (via COUNT): 0
+0000.460 (0) Table wply_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=663) in 0.01 seconds
+0000.466 (0) Table wply_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.472 (0) Table wply_comments: Total expected rows (via COUNT): 18
+0000.473 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.477 (0) Table wply_comments: Rows added in this batch (next record: 46): 18 (uncompressed bytes in this segment=5758) in 0.01 seconds
+0000.482 (0) Table wply_comments: finishing file(s) (2, 1.1 KB)
+0000.488 (0) Table wply_links: Total expected rows (via COUNT): 0
+0000.491 (0) Table wply_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0000.495 (0) Table wply_links: finishing file(s) (2, 0.5 KB)
+0000.499 (0) Table wply_postmeta: Total expected rows (approximate): 17492
+0005.103 (0) Table wply_postmeta: binary mysqldump finished (writes: 108, bytes 78838512, return code 0) in 4.60 seconds
+0005.108 (0) Table wply_postmeta: finishing file(s) (1, 7803 KB)
+0005.123 (0) Table wply_posts: Total expected rows (approximate): 5160
+0005.497 (0) Table wply_posts: Rows added in this batch (next record: 4579): 2697 (uncompressed bytes in this segment=14224568) in 0.38 seconds
+0005.505 (0) Table wply_posts: finishing file(s) (2, 512.2 KB)
+0005.512 (0) Table wply_snippets: Total expected rows (via COUNT): 10
+0005.514 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.517 (0) Table wply_snippets: Rows added in this batch (next record: 21): 10 (uncompressed bytes in this segment=7643) in 0.01 seconds
+0005.524 (0) Table wply_snippets: finishing file(s) (2, 2.7 KB)
+0005.529 (0) Table wply_term_relationships: Total expected rows (approximate): 110
+0005.533 (0) Table wply_term_relationships: Rows added in this batch (next record: 100000): 120 (uncompressed bytes in this segment=2595) in 0.00 seconds
+0005.538 (0) Table wply_term_relationships: finishing file(s) (2, 0.8 KB)
+0005.545 (0) Table wply_term_taxonomy: Total expected rows (via COUNT): 58
+0005.546 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.550 (0) Table wply_term_taxonomy: Rows added in this batch (next record: 71): 58 (uncompressed bytes in this segment=3030) in 0.01 seconds
+0005.556 (0) Table wply_term_taxonomy: finishing file(s) (2, 0.9 KB)
+0005.564 (0) Table wply_termmeta: Total expected rows (via COUNT): 102
+0005.566 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.570 (0) Table wply_termmeta: Rows added in this batch (next record: 142): 102 (uncompressed bytes in this segment=4255) in 0.01 seconds
+0005.577 (0) Table wply_termmeta: finishing file(s) (2, 1 KB)
+0005.583 (0) Table wply_terms: Total expected rows (via COUNT): 58
+0005.584 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.588 (0) Table wply_terms: Rows added in this batch (next record: 71): 58 (uncompressed bytes in this segment=2979) in 0.01 seconds
+0005.594 (0) Table wply_terms: finishing file(s) (2, 1.2 KB)
+0005.599 (0) Table wply_wc_category_lookup: Total expected rows (approximate): 27
+0005.603 (0) Table wply_wc_category_lookup: Rows added in this batch (next record: 1000): 44 (uncompressed bytes in this segment=1077) in 0.00 seconds
+0005.608 (0) Table wply_wc_category_lookup: finishing file(s) (2, 0.5 KB)
+0005.615 (0) Table wply_wc_product_meta_lookup: Total expected rows (via COUNT): 225
+0005.616 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.625 (0) Table wply_wc_product_meta_lookup: Rows added in this batch (next record: 4349): 225 (uncompressed bytes in this segment=22805) in 0.01 seconds
+0005.631 (0) Table wply_wc_product_meta_lookup: finishing file(s) (2, 1.5 KB)
+0005.636 (0) Table wply_wc_reserved_stock: Total expected rows (approximate): 0
+0005.640 (0) Table wply_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=675) in 0.00 seconds
+0005.645 (0) Table wply_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0005.650 (0) Table wply_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0005.651 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.655 (0) Table wply_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=764) in 0.01 seconds
+0005.659 (0) Table wply_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0005.668 (0) Table wply_woocommerce_order_itemmeta: Total expected rows (via COUNT): 109
+0005.669 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.673 (0) Table wply_woocommerce_order_itemmeta: Rows added in this batch (next record: 387): 109 (uncompressed bytes in this segment=6374) in 0.01 seconds
+0005.680 (0) Table wply_woocommerce_order_itemmeta: finishing file(s) (2, 1.9 KB)
+0005.688 (0) Table wply_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0005.691 (0) Table wply_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.01 seconds
+0005.697 (0) Table wply_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0005.703 (0) Table wply_adfoin_integration: Total expected rows (approximate): 0
+0005.706 (0) Table wply_adfoin_integration: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=839) in 0.00 seconds
+0005.711 (0) Table wply_adfoin_integration: finishing file(s) (2, 0.4 KB)
+0005.716 (0) Table wply_adfoin_log: Total expected rows (approximate): 0
+0005.718 (0) Table wply_adfoin_log: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=688) in 0.00 seconds
+0005.723 (0) Table wply_adfoin_log: finishing file(s) (2, 0.4 KB)
+0005.729 (0) Table wply_bw_pricing_items: Total expected rows (approximate): 26
+0005.731 (0) Table wply_bw_pricing_items: Rows added in this batch (next record: 1000): 26 (uncompressed bytes in this segment=3118) in 0.00 seconds
+0005.736 (0) Table wply_bw_pricing_items: finishing file(s) (2, 0.8 KB)
+0005.741 (0) Table wply_e_events: Total expected rows (via COUNT): 0
+0005.743 (0) Table wply_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=523) in 0.00 seconds
+0005.748 (0) Table wply_e_events: finishing file(s) (2, 0.4 KB)
+0005.754 (0) Table wply_frmt_form_entry: Total expected rows (via COUNT): 758
+0005.764 (0) Table wply_frmt_form_entry: Rows added in this batch (next record: 787): 758 (uncompressed bytes in this segment=47790) in 0.01 seconds
+0005.769 (0) Table wply_frmt_form_entry: finishing file(s) (2, 6.6 KB)
+0005.780 (0) Table wply_frmt_form_entry_meta: Total expected rows (approximate): 1768
+0005.858 (0) Table wply_frmt_form_entry_meta: Rows added in this batch (next record: 2376): 2317 (uncompressed bytes in this segment=1363888) in 0.08 seconds
+0005.866 (0) Table wply_frmt_form_entry_meta: finishing file(s) (2, 114.9 KB)
+0005.873 (0) Table wply_frmt_form_reports: Total expected rows (via COUNT): 1
+0005.875 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.878 (0) Table wply_frmt_form_reports: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1255) in 0.01 seconds
+0005.884 (0) Table wply_frmt_form_reports: finishing file(s) (2, 0.7 KB)
+0005.889 (0) Table wply_frmt_form_views: Total expected rows (approximate): 4049
+0005.961 (0) Table wply_frmt_form_views: Rows added in this batch (next record: 4616): 4549 (uncompressed bytes in this segment=342904) in 0.07 seconds
+0005.967 (0) Table wply_frmt_form_views: finishing file(s) (2, 49.3 KB)
+0005.975 (0) Table wply_fsmpt_email_logs: Total expected rows (via COUNT): 77
+0005.976 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.983 (0) Table wply_fsmpt_email_logs: Rows added in this batch (next record: 995): 77 (uncompressed bytes in this segment=65667) in 0.01 seconds
+0005.991 (0) Table wply_fsmpt_email_logs: finishing file(s) (2, 6 KB)
+0005.997 (0) Table wply_litespeed_url: Total expected rows (via COUNT): 0
+0006.001 (0) Table wply_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=585) in 0.00 seconds
+0006.005 (0) Table wply_litespeed_url: finishing file(s) (2, 0.4 KB)
+0006.011 (0) Table wply_litespeed_url_file: Total expected rows (via COUNT): 0
+0006.013 (0) Table wply_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1019) in 0.00 seconds
+0006.018 (0) Table wply_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0006.023 (0) Table wply_mailchimp_carts: Total expected rows (approximate): 2
+0006.026 (0) Table wply_mailchimp_carts: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=1557) in 0.00 seconds
+0006.030 (0) Table wply_mailchimp_carts: finishing file(s) (2, 0.8 KB)
+0006.036 (0) Table wply_mailchimp_jobs: Total expected rows (via COUNT): 23
+0006.037 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.041 (0) Table wply_mailchimp_jobs: Rows added in this batch (next record: 1179): 23 (uncompressed bytes in this segment=13798) in 0.01 seconds
+0006.046 (0) Table wply_mailchimp_jobs: finishing file(s) (2, 1.6 KB)
+0006.053 (0) Table wply_sbi_feed_caches: Total expected rows (via COUNT): 2
+0006.055 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.057 (0) Table wply_sbi_feed_caches: Rows added in this batch (next record: 26): 2 (uncompressed bytes in this segment=2171) in 0.01 seconds
+0006.063 (0) Table wply_sbi_feed_caches: finishing file(s) (2, 1.5 KB)
+0006.071 (0) Table wply_sbi_feeds: Total expected rows (via COUNT): 3
+0006.072 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.075 (0) Table wply_sbi_feeds: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=7029) in 0.01 seconds
+0006.081 (0) Table wply_sbi_feeds: finishing file(s) (2, 1.4 KB)
+0006.089 (0) Table wply_sbi_instagram_feed_locator: Total expected rows (via COUNT): 0
+0006.091 (0) Table wply_sbi_instagram_feed_locator: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=819) in 0.01 seconds
+0006.098 (0) Table wply_sbi_instagram_feed_locator: finishing file(s) (2, 0.4 KB)
+0006.103 (0) Table wply_sbi_instagram_feeds_posts: Total expected rows (via COUNT): 0
+0006.105 (0) Table wply_sbi_instagram_feeds_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.00 seconds
+0006.110 (0) Table wply_sbi_instagram_feeds_posts: finishing file(s) (2, 0.4 KB)
+0006.117 (0) Table wply_sbi_instagram_posts: Total expected rows (via COUNT): 0
+0006.119 (0) Table wply_sbi_instagram_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=922) in 0.01 seconds
+0006.130 (0) Table wply_sbi_instagram_posts: finishing file(s) (2, 0.5 KB)
+0006.136 (0) Table wply_sbi_sources: Total expected rows (via COUNT): 0
+0006.138 (0) Table wply_sbi_sources: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=934) in 0.00 seconds
+0006.142 (0) Table wply_sbi_sources: finishing file(s) (2, 0.4 KB)
+0006.147 (0) Table wply_trustindex_google_reviews: Total expected rows (approximate): 3
+0006.149 (0) Table wply_trustindex_google_reviews: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=1505) in 0.00 seconds
+0006.154 (0) Table wply_trustindex_google_reviews: finishing file(s) (2, 0.7 KB)
+0006.161 (0) Table wply_wc_admin_note_actions: Total expected rows (via COUNT): 60
+0006.162 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.167 (0) Table wply_wc_admin_note_actions: Rows added in this batch (next record: 2104): 60 (uncompressed bytes in this segment=10657) in 0.01 seconds
+0006.173 (0) Table wply_wc_admin_note_actions: finishing file(s) (2, 2.5 KB)
+0006.181 (0) Table wply_wc_admin_notes: Total expected rows (via COUNT): 50
+0006.182 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.187 (0) Table wply_wc_admin_notes: Rows added in this batch (next record: 69): 50 (uncompressed bytes in this segment=23771) in 0.01 seconds
+0006.193 (0) Table wply_wc_admin_notes: finishing file(s) (2, 6.5 KB)
+0006.199 (0) Table wply_wc_customer_lookup: Total expected rows (via COUNT): 3
+0006.201 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.204 (0) Table wply_wc_customer_lookup: Rows added in this batch (next record: 11): 3 (uncompressed bytes in this segment=1571) in 0.01 seconds
+0006.209 (0) Table wply_wc_customer_lookup: finishing file(s) (2, 0.7 KB)
+0006.216 (0) Table wply_wc_download_log: Total expected rows (via COUNT): 0
+0006.219 (0) Table wply_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.01 seconds
+0006.224 (0) Table wply_wc_download_log: finishing file(s) (2, 0.4 KB)
+0006.229 (0) Table wply_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0006.231 (0) Table wply_wc_order_coupon_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=821) in 0.00 seconds
+0006.236 (0) Table wply_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0006.242 (0) Table wply_wc_order_product_lookup: Total expected rows (via COUNT): 8
+0006.243 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.247 (0) Table wply_wc_order_product_lookup: Rows added in this batch (next record: 44): 8 (uncompressed bytes in this segment=2017) in 0.01 seconds
+0006.252 (0) Table wply_wc_order_product_lookup: finishing file(s) (2, 0.7 KB)
+0006.258 (0) Table wply_wc_order_stats: Total expected rows (via COUNT): 4
+0006.259 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.261 (0) Table wply_wc_order_stats: Rows added in this batch (next record: 4541): 4 (uncompressed bytes in this segment=1877) in 0.01 seconds
+0006.266 (0) Table wply_wc_order_stats: finishing file(s) (2, 0.7 KB)
+0006.271 (0) Table wply_wc_order_tax_lookup: Total expected rows (approximate): 0
+0006.274 (0) Table wply_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0006.279 (0) Table wply_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0006.284 (0) Table wply_wc_product_attributes_lookup: Total expected rows (approximate): 154
+0006.287 (0) Table wply_wc_product_attributes_lookup: Rows added in this batch (next record: 1000): 154 (uncompressed bytes in this segment=6748) in 0.00 seconds
+0006.292 (0) Table wply_wc_product_attributes_lookup: finishing file(s) (2, 0.9 KB)
+0006.298 (0) Table wply_wc_product_download_directories: Total expected rows (via COUNT): 2
+0006.299 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.303 (0) Table wply_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=930) in 0.01 seconds
+0006.308 (0) Table wply_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0006.314 (0) Table wply_wc_rate_limits: Total expected rows (via COUNT): 1
+0006.315 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.318 (0) Table wply_wc_rate_limits: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=782) in 0.00 seconds
+0006.323 (0) Table wply_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0006.329 (0) Table wply_wc_webhooks: Total expected rows (via COUNT): 0
+0006.332 (0) Table wply_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1083) in 0.00 seconds
+0006.336 (0) Table wply_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0006.341 (0) Table wply_wcpdf_invoice_number: Total expected rows (via COUNT): 14
+0006.342 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.345 (0) Table wply_wcpdf_invoice_number: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=1252) in 0.01 seconds
+0006.349 (0) Table wply_wcpdf_invoice_number: finishing file(s) (2, 0.6 KB)
+0006.356 (0) Table wply_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0006.359 (0) Table wply_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=885) in 0.01 seconds
+0006.364 (0) Table wply_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0006.369 (0) Table wply_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 1
+0006.370 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.373 (0) Table wply_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=976) in 0.01 seconds
+0006.377 (0) Table wply_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0006.383 (0) Table wply_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0006.385 (0) Table wply_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1422) in 0.00 seconds
+0006.390 (0) Table wply_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0006.396 (0) Table wply_woocommerce_log: Total expected rows (via COUNT): 0
+0006.398 (0) Table wply_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.00 seconds
+0006.404 (0) Table wply_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0006.409 (0) Table wply_woocommerce_order_items: Total expected rows (via COUNT): 13
+0006.410 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.414 (0) Table wply_woocommerce_order_items: Rows added in this batch (next record: 45): 13 (uncompressed bytes in this segment=1344) in 0.01 seconds
+0006.419 (0) Table wply_woocommerce_order_items: finishing file(s) (2, 0.6 KB)
+0006.424 (0) Table wply_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0006.427 (0) Table wply_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.00 seconds
+0006.432 (0) Table wply_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0006.440 (0) Table wply_woocommerce_sessions: Total expected rows (via COUNT): 0
+0006.442 (0) Table wply_woocommerce_sessions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=686) in 0.01 seconds
+0006.449 (0) Table wply_woocommerce_sessions: finishing file(s) (2, 0.4 KB)
+0006.457 (0) Table wply_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0006.458 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.461 (0) Table wply_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=929) in 0.01 seconds
+0006.465 (0) Table wply_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0006.470 (0) Table wply_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 3
+0006.471 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.473 (0) Table wply_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 8): 3 (uncompressed bytes in this segment=929) in 0.00 seconds
+0006.477 (0) Table wply_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.5 KB)
+0006.482 (0) Table wply_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0006.483 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.485 (0) Table wply_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=703) in 0.00 seconds
+0006.489 (0) Table wply_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0006.495 (0) Table wply_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0006.498 (0) Table wply_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0006.502 (0) Table wply_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0006.507 (0) Table wply_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0006.509 (0) Table wply_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1154) in 0.00 seconds
+0006.513 (0) Table wply_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0006.518 (0) Table wply_woof_query_cache: Total expected rows (approximate): 0
+0006.519 (0) Table wply_woof_query_cache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=468) in 0.00 seconds
+0006.524 (0) Table wply_woof_query_cache: finishing file(s) (2, 0.3 KB)
+0006.532 (0) Table wply_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0006.533 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.536 (0) Table wply_wpforms_tasks_meta: Rows added in this batch (next record: 12): 4 (uncompressed bytes in this segment=927) in 0.01 seconds
+0006.542 (0) Table wply_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0006.550 (0) Table wply_yoast_indexable: Total expected rows (via COUNT): 77
+0006.552 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.562 (0) Table wply_yoast_indexable: Rows added in this batch (next record: 1068): 77 (uncompressed bytes in this segment=49250) in 0.02 seconds
+0006.569 (0) Table wply_yoast_indexable: finishing file(s) (2, 9.1 KB)
+0006.574 (0) Table wply_yoast_indexable_hierarchy: Total expected rows (approximate): 75
+0006.582 (0) Table wply_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 76 (uncompressed bytes in this segment=2129) in 0.01 seconds
+0006.587 (0) Table wply_yoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0006.592 (0) Table wply_yoast_migrations: Total expected rows (via COUNT): 24
+0006.593 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.597 (0) Table wply_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1248) in 0.01 seconds
+0006.602 (0) Table wply_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0006.608 (0) Table wply_yoast_primary_term: Total expected rows (via COUNT): 14
+0006.609 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.612 (0) Table wply_yoast_primary_term: Rows added in this batch (next record: 43): 14 (uncompressed bytes in this segment=2035) in 0.01 seconds
+0006.617 (0) Table wply_yoast_primary_term: finishing file(s) (2, 0.8 KB)
+0006.623 (0) Table wply_yoast_seo_links: Total expected rows (via COUNT): 345
+0006.624 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.633 (0) Table wply_yoast_seo_links: Rows added in this batch (next record: 782): 345 (uncompressed bytes in this segment=45301) in 0.01 seconds
+0006.638 (0) Table wply_yoast_seo_links: finishing file(s) (2, 4.9 KB)
+0006.640 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_options.table.tmpr128555.gz (1/75/fopen): adding to final database dump
+0006.649 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_options.table.gz (2/75/fopen): adding to final database dump
+0006.650 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_users.table.tmpr15.gz (3/75/fopen): adding to final database dump
+0006.652 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_users.table.gz (4/75/fopen): adding to final database dump
+0006.653 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_usermeta.table.tmpr727.gz (5/75/fopen): adding to final database dump
+0006.655 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_usermeta.table.gz (6/75/fopen): adding to final database dump
+0006.656 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_actionscheduler_actions.table.tmpr4862.gz (7/75/fopen): adding to final database dump
+0006.657 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_actionscheduler_actions.table.gz (8/75/fopen): adding to final database dump
+0006.659 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_actionscheduler_claims.table.tmpr0.gz (9/75/fopen): adding to final database dump
+0006.660 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_actionscheduler_claims.table.gz (10/75/fopen): adding to final database dump
+0006.661 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_actionscheduler_groups.table.tmpr10.gz (11/75/fopen): adding to final database dump
+0006.663 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_actionscheduler_groups.table.gz (12/75/fopen): adding to final database dump
+0006.664 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_actionscheduler_logs.table.tmpr14003.gz (13/75/fopen): adding to final database dump
+0006.666 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_actionscheduler_logs.table.gz (14/75/fopen): adding to final database dump
+0006.667 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_commentmeta.table.tmpr0.gz (15/75/fopen): adding to final database dump
+0006.668 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_commentmeta.table.gz (16/75/fopen): adding to final database dump
+0006.670 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_comments.table.tmpr47.gz (17/75/fopen): adding to final database dump
+0006.671 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_comments.table.gz (18/75/fopen): adding to final database dump
+0006.672 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_links.table.tmpr0.gz (19/75/fopen): adding to final database dump
+0006.674 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_links.table.gz (20/75/fopen): adding to final database dump
+0006.675 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_postmeta.table.gz (21/75/fopen): adding to final database dump
+0006.811 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_posts.table.tmpr4580.gz (22/75/fopen): adding to final database dump
+0006.817 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_posts.table.gz (23/75/fopen): adding to final database dump
+0006.818 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_snippets.table.tmpr22.gz (24/75/fopen): adding to final database dump
+0006.820 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_snippets.table.gz (25/75/fopen): adding to final database dump
+0006.821 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_term_relationships.table.tmpr100001.gz (26/75/fopen): adding to final database dump
+0006.822 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_term_relationships.table.gz (27/75/fopen): adding to final database dump
+0006.823 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_term_taxonomy.table.tmpr72.gz (28/75/fopen): adding to final database dump
+0006.824 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_term_taxonomy.table.gz (29/75/fopen): adding to final database dump
+0006.825 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_termmeta.table.tmpr143.gz (30/75/fopen): adding to final database dump
+0006.826 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_termmeta.table.gz (31/75/fopen): adding to final database dump
+0006.827 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_terms.table.tmpr72.gz (32/75/fopen): adding to final database dump
+0006.828 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_terms.table.gz (33/75/fopen): adding to final database dump
+0006.829 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_category_lookup.table.tmpr1001.gz (34/75/fopen): adding to final database dump
+0006.830 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_category_lookup.table.gz (35/75/fopen): adding to final database dump
+0006.831 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_product_meta_lookup.table.tmpr4350.gz (36/75/fopen): adding to final database dump
+0006.832 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_product_meta_lookup.table.gz (37/75/fopen): adding to final database dump
+0006.833 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_reserved_stock.table.tmpr1.gz (38/75/fopen): adding to final database dump
+0006.834 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_reserved_stock.table.gz (39/75/fopen): adding to final database dump
+0006.839 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_tax_rate_classes.table.tmpr3.gz (40/75/fopen): adding to final database dump
+0006.840 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_tax_rate_classes.table.gz (41/75/fopen): adding to final database dump
+0006.841 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_order_itemmeta.table.tmpr388.gz (42/75/fopen): adding to final database dump
+0006.842 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_order_itemmeta.table.gz (43/75/fopen): adding to final database dump
+0006.843 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_payment_tokenmeta.table.tmpr0.gz (44/75/fopen): adding to final database dump
+0006.844 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_payment_tokenmeta.table.gz (45/75/fopen): adding to final database dump
+0006.846 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_adfoin_integration.table.tmpr1.gz (46/75/fopen): adding to final database dump
+0006.847 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_adfoin_integration.table.gz (47/75/fopen): adding to final database dump
+0006.848 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_adfoin_log.table.tmpr1.gz (48/75/fopen): adding to final database dump
+0006.849 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_adfoin_log.table.gz (49/75/fopen): adding to final database dump
+0006.850 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_bw_pricing_items.table.tmpr1001.gz (50/75/fopen): adding to final database dump
+0006.851 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_bw_pricing_items.table.gz (51/75/fopen): adding to final database dump
+0006.852 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_e_events.table.tmpr0.gz (52/75/fopen): adding to final database dump
+0006.854 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_e_events.table.gz (53/75/fopen): adding to final database dump
+0006.855 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_frmt_form_entry.table.tmpr788.gz (54/75/fopen): adding to final database dump
+0006.856 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_frmt_form_entry.table.gz (55/75/fopen): adding to final database dump
+0006.857 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_frmt_form_entry_meta.table.tmpr2377.gz (56/75/fopen): adding to final database dump
+0006.859 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_frmt_form_entry_meta.table.gz (57/75/fopen): adding to final database dump
+0006.860 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_frmt_form_reports.table.tmpr2.gz (58/75/fopen): adding to final database dump
+0006.862 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_frmt_form_reports.table.gz (59/75/fopen): adding to final database dump
+0006.863 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_frmt_form_views.table.tmpr4617.gz (60/75/fopen): adding to final database dump
+0006.864 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_frmt_form_views.table.gz (61/75/fopen): adding to final database dump
+0006.865 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_fsmpt_email_logs.table.tmpr996.gz (62/75/fopen): adding to final database dump
+0006.867 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_fsmpt_email_logs.table.gz (63/75/fopen): adding to final database dump
+0006.868 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_litespeed_url.table.tmpr0.gz (64/75/fopen): adding to final database dump
+0006.869 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_litespeed_url.table.gz (65/75/fopen): adding to final database dump
+0006.870 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_litespeed_url_file.table.tmpr0.gz (66/75/fopen): adding to final database dump
+0006.871 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_litespeed_url_file.table.gz (67/75/fopen): adding to final database dump
+0006.872 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_mailchimp_carts.table.tmpr1001.gz (68/75/fopen): adding to final database dump
+0006.873 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_mailchimp_carts.table.gz (69/75/fopen): adding to final database dump
+0006.875 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_mailchimp_jobs.table.tmpr1180.gz (70/75/fopen): adding to final database dump
+0006.876 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_mailchimp_jobs.table.gz (71/75/fopen): adding to final database dump
+0006.877 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_feed_caches.table.tmpr27.gz (72/75/fopen): adding to final database dump
+0006.878 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_feed_caches.table.gz (73/75/fopen): adding to final database dump
+0006.879 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_feeds.table.tmpr4.gz (74/75/fopen): adding to final database dump
+0006.881 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_feeds.table.gz (75/75/fopen): adding to final database dump
+0006.882 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_instagram_feed_locator.table.tmpr0.gz (76/75/fopen): adding to final database dump
+0006.883 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_instagram_feed_locator.table.gz (77/75/fopen): adding to final database dump
+0006.884 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_instagram_feeds_posts.table.tmpr0.gz (78/75/fopen): adding to final database dump
+0006.885 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_instagram_feeds_posts.table.gz (79/75/fopen): adding to final database dump
+0006.886 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_instagram_posts.table.tmpr0.gz (80/75/fopen): adding to final database dump
+0006.888 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_instagram_posts.table.gz (81/75/fopen): adding to final database dump
+0006.889 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_sources.table.tmpr0.gz (82/75/fopen): adding to final database dump
+0006.890 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_sbi_sources.table.gz (83/75/fopen): adding to final database dump
+0006.891 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_trustindex_google_reviews.table.tmpr1001.gz (84/75/fopen): adding to final database dump
+0006.892 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_trustindex_google_reviews.table.gz (85/75/fopen): adding to final database dump
+0006.893 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_admin_note_actions.table.tmpr2105.gz (86/75/fopen): adding to final database dump
+0006.894 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_admin_note_actions.table.gz (87/75/fopen): adding to final database dump
+0006.895 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_admin_notes.table.tmpr70.gz (88/75/fopen): adding to final database dump
+0006.896 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_admin_notes.table.gz (89/75/fopen): adding to final database dump
+0006.897 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_customer_lookup.table.tmpr12.gz (90/75/fopen): adding to final database dump
+0006.898 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_customer_lookup.table.gz (91/75/fopen): adding to final database dump
+0006.899 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_download_log.table.tmpr0.gz (92/75/fopen): adding to final database dump
+0006.900 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_download_log.table.gz (93/75/fopen): adding to final database dump
+0006.901 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_order_coupon_lookup.table.tmpr1001.gz (94/75/fopen): adding to final database dump
+0006.902 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_order_coupon_lookup.table.gz (95/75/fopen): adding to final database dump
+0006.903 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_order_product_lookup.table.tmpr45.gz (96/75/fopen): adding to final database dump
+0006.904 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_order_product_lookup.table.gz (97/75/fopen): adding to final database dump
+0006.905 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_order_stats.table.tmpr4542.gz (98/75/fopen): adding to final database dump
+0006.906 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_order_stats.table.gz (99/75/fopen): adding to final database dump
+0006.908 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_order_tax_lookup.table.tmpr1.gz (100/75/fopen): adding to final database dump
+0006.909 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_order_tax_lookup.table.gz (101/75/fopen): adding to final database dump
+0006.910 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_product_attributes_lookup.table.tmpr1001.gz (102/75/fopen): adding to final database dump
+0006.911 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_product_attributes_lookup.table.gz (103/75/fopen): adding to final database dump
+0006.912 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_product_download_directories.table.tmpr3.gz (104/75/fopen): adding to final database dump
+0006.913 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_product_download_directories.table.gz (105/75/fopen): adding to final database dump
+0006.914 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_rate_limits.table.tmpr2.gz (106/75/fopen): adding to final database dump
+0006.915 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_rate_limits.table.gz (107/75/fopen): adding to final database dump
+0006.916 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_webhooks.table.tmpr0.gz (108/75/fopen): adding to final database dump
+0006.917 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wc_webhooks.table.gz (109/75/fopen): adding to final database dump
+0006.918 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wcpdf_invoice_number.table.tmpr15.gz (110/75/fopen): adding to final database dump
+0006.919 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wcpdf_invoice_number.table.gz (111/75/fopen): adding to final database dump
+0006.920 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_api_keys.table.tmpr0.gz (112/75/fopen): adding to final database dump
+0006.921 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_api_keys.table.gz (113/75/fopen): adding to final database dump
+0006.922 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_attribute_taxonomies.table.tmpr3.gz (114/75/fopen): adding to final database dump
+0006.923 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_attribute_taxonomies.table.gz (115/75/fopen): adding to final database dump
+0006.924 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_downloadable_product_permissions.table.tmpr0.gz (116/75/fopen): adding to final database dump
+0006.925 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_downloadable_product_permissions.table.gz (117/75/fopen): adding to final database dump
+0006.926 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_log.table.tmpr0.gz (118/75/fopen): adding to final database dump
+0006.927 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_log.table.gz (119/75/fopen): adding to final database dump
+0006.928 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_order_items.table.tmpr46.gz (120/75/fopen): adding to final database dump
+0006.929 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_order_items.table.gz (121/75/fopen): adding to final database dump
+0006.930 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_payment_tokens.table.tmpr0.gz (122/75/fopen): adding to final database dump
+0006.931 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_payment_tokens.table.gz (123/75/fopen): adding to final database dump
+0006.932 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_sessions.table.tmpr0.gz (124/75/fopen): adding to final database dump
+0006.934 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_sessions.table.gz (125/75/fopen): adding to final database dump
+0006.935 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_shipping_zone_locations.table.tmpr2.gz (126/75/fopen): adding to final database dump
+0006.936 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_shipping_zone_locations.table.gz (127/75/fopen): adding to final database dump
+0006.938 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_shipping_zone_methods.table.tmpr9.gz (128/75/fopen): adding to final database dump
+0006.939 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_shipping_zone_methods.table.gz (129/75/fopen): adding to final database dump
+0006.940 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_shipping_zones.table.tmpr2.gz (130/75/fopen): adding to final database dump
+0006.942 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_shipping_zones.table.gz (131/75/fopen): adding to final database dump
+0006.943 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_tax_rate_locations.table.tmpr0.gz (132/75/fopen): adding to final database dump
+0006.944 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_tax_rate_locations.table.gz (133/75/fopen): adding to final database dump
+0006.946 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_tax_rates.table.tmpr0.gz (134/75/fopen): adding to final database dump
+0006.947 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woocommerce_tax_rates.table.gz (135/75/fopen): adding to final database dump
+0006.948 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woof_query_cache.table.tmpr1.gz (136/75/fopen): adding to final database dump
+0006.950 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_woof_query_cache.table.gz (137/75/fopen): adding to final database dump
+0006.951 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wpforms_tasks_meta.table.tmpr13.gz (138/75/fopen): adding to final database dump
+0006.952 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_wpforms_tasks_meta.table.gz (139/75/fopen): adding to final database dump
+0006.954 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_yoast_indexable.table.tmpr1069.gz (140/75/fopen): adding to final database dump
+0006.955 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_yoast_indexable.table.gz (141/75/fopen): adding to final database dump
+0006.956 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_yoast_indexable_hierarchy.table.tmpr1001.gz (142/75/fopen): adding to final database dump
+0006.958 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_yoast_indexable_hierarchy.table.gz (143/75/fopen): adding to final database dump
+0006.959 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_yoast_migrations.table.tmpr25.gz (144/75/fopen): adding to final database dump
+0006.961 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_yoast_migrations.table.gz (145/75/fopen): adding to final database dump
+0006.962 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_yoast_primary_term.table.tmpr44.gz (146/75/fopen): adding to final database dump
+0006.963 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_yoast_primary_term.table.gz (147/75/fopen): adding to final database dump
+0006.965 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_yoast_seo_links.table.tmpr783.gz (148/75/fopen): adding to final database dump
+0006.966 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db-table-wply_yoast_seo_links.table.gz (149/75/fopen): adding to final database dump
+0006.973 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db.gz: finished writing out complete database file (9026.1 KB)
+0007.200 (0) Total database tables backed up: 75 (backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db.gz, size: 9242859, sha1: 0cdd82bf07c789f52045e3b6a3816a8d20bbb8d5, sha256: 3874f347b74c22bf5c9ffac153b26b1172bf7eca9722ffeba774ae7610216c90)
+0007.206 (0) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db.gz: db: This file has not yet been successfully uploaded: will queue
+0007.207 (0) Saving backup history. Total backup size: 8.8 MB
+0007.209 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0007.214 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0007.215 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-780e2e946720b3d8e39dad107274adca)
+0007.216 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0007.663 (0) Successfully updated and refreshed the access token
+0007.664 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0008.132 (0) Dropbox: quota usage: used=368.4 MB, total=2048 MB, available=1679.6 MB
+0008.134 (0) Dropbox: Attempt to upload: backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db.gz to: backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db.gz
+0013.624 (0) Dropbox: chunked upload exception (Dropbox_Exception):  (line: 285, file: /home/btho3472/publicitizz.com/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0013.627 (0) An error condition has occurred for the first time during this job
+0013.630 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0013.632 (0) Number of backup sets in history: 5; groups (db): 1
+0013.633 (0) Examining (for databases) backup set with group_id=0, nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0013.634 (0) This backup set is the backup set just made, so will not be deleted.
+0013.634 (0) Examining (for databases) backup set with group_id=0, nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0013.634 (0) Examining (for databases) backup set with group_id=0, nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0013.634 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0013.636 (0) Examining (for databases) backup set with group_id=0, nonce=9c1811d04421, datestamp=1688158116 (Jun 30 2023 20:48:36)
+0013.636 (0) 1688158116: db: this set includes a database (backup_2023-06-30-2248_L039Atelier_de_Publicitizz_9c1811d04421-db.gz); db count is now 2
+0013.636 (0) 1688158116: db: over retain limit (2); will delete this database
+0013.637 (0) Dropbox: request deletion: backup_2023-06-30-2248_L039Atelier_de_Publicitizz_9c1811d04421-db.gz
+0014.364 (0) Dropbox: deletion succeeded
+0014.369 (0) This backup set is now empty; will remove from history
+0014.371 (0) Deleting log file (log.9c1811d04421.txt)
+0014.384 (0) Examining (for databases) backup set with group_id=0, nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0014.384 (0) Number of backup sets in history: 4; groups (files): 1
+0014.385 (0) Examining (for files) backup set with nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0014.385 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0014.386 (0) Examining (for files) backup set with nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0014.387 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0014.388 (0) Examining (for files) backup set with nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0014.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0014.389 (0) Examining (for files) backup set with nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0014.389 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0014.391 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0014.400 (0) Resume backup (b4800b14c6aa, 0): finish run
+0014.405 (0) Decremented the semaphore (d) by 1
+0014.408 (0) Semaphore (d) unlocked
+0014.409 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0014.414 (0) Rescheduling resumption 1: moving to 60 seconds from now (1688331419)
+0014.418 (0) No email will/can be sent - the user has not configured an email address.
+0014.419 (0) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0087.471 (1) Opened log file at time: Sun, 02 Jul 2023 20:57:12 +0000 on https://www.publicitizz.com
+0087.473 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.6 WP: 6.2.2 PHP: 7.4.33 (litespeed, Linux plaf.o2switch.net 4.18.0-348.12.2.lve.el7h.x86_64 #1 SMP Mon Jan 24 05:45:10 EST 2022 x86_64) MySQL: 10.6.14-MariaDB (max packet size=268435456) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 39.1M | 42M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0087.529 (1) Free space on disk containing Updraft's temporary directory: 492660.8 MB
+0087.537 (1) Requesting backup semaphore lock (b4800b14c6aa)
+0087.540 (1) [Debug] Lock option (updraft_lock_b4800b14c6aa, wply_options) was created in the database
+0087.541 (1) [Info] Lock (updraft_lock_b4800b14c6aa, wply_options) acquired after initialising the database
+0087.545 (1) Backup run: resumption=1, nonce=b4800b14c6aa, file_nonce=b4800b14c6aa begun at=1688331344 (88s ago), job type=backup, previous check-in=14.37s
+0087.548 (1) Scheduling a resumption (2) after 300 seconds (1688331732) in case this run gets aborted
+0087.609 (1) This backup run is not intended for files - skipping
+0087.611 (1) Database dump (WordPress DB): Creation was completed already
+0087.613 (1) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0087.621 (1) backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db.gz: db: This file has not yet been successfully uploaded: will queue
+0087.623 (1) Saving backup history. Total backup size: 8.8 MB
+0087.627 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0087.630 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0087.632 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-780e2e946720b3d8e39dad107274adca)
+0087.633 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0087.687 (1) Dropbox: access gained; setting chunk size to: 1024 KB
+0088.127 (1) Dropbox: quota usage: used=359.6 MB, total=2048 MB, available=1688.4 MB
+0088.130 (1) Dropbox: Attempt to upload: backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db.gz to: backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db.gz
+0089.320 (1) Dropbox chunked upload: 11.3 % uploaded (pid_upload_session:ABIGhwEheEUFWv6eNv_R7HHQrGetlmCgesdIFyG2b9KUXEGVTQ, 1048576, 7680 KB)
+0091.262 (1) Dropbox chunked upload: 96.4 % uploaded (pid_upload_session:ABIGhwEheEUFWv6eNv_R7HHQrGetlmCgesdIFyG2b9KUXEGVTQ, 8912896, 10240 KB)
+0092.296 (1) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIGhwEheEUFWv6eNv_R7HHQrGetlmCgesdIFyG2b9KUXEGVTQ, 9242859, 10240 KB)
+0093.463 (1) Recording as successfully uploaded: backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db.gz
+0093.470 (1) Deleting local file: backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db.gz: OK
+0093.472 (1) Dropbox: File upload success (backup_2023-07-02-2255_L039Atelier_de_Publicitizz_b4800b14c6aa-db.gz): 9026 KB in 5s (1689 KB/s)
+0093.479 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0093.481 (1) Number of backup sets in history: 4; groups (db): 1
+0093.482 (1) Examining (for databases) backup set with group_id=0, nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0093.484 (1) This backup set is the backup set just made, so will not be deleted.
+0093.484 (1) Examining (for databases) backup set with group_id=0, nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0093.484 (1) Examining (for databases) backup set with group_id=0, nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0093.484 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0093.485 (1) Examining (for databases) backup set with group_id=0, nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0093.485 (1) Number of backup sets in history: 4; groups (files): 1
+0093.486 (1) Examining (for files) backup set with nonce=b4800b14c6aa, datestamp=1688331344 (Jul 02 2023 20:55:44)
+0093.486 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0093.487 (1) Examining (for files) backup set with nonce=6ce5933240b0, datestamp=1688247135 (Jul 01 2023 21:32:15)
+0093.487 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0093.488 (1) Examining (for files) backup set with nonce=a7a35c23dab8, datestamp=1688244309 (Jul 01 2023 20:45:09)
+0093.488 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0093.489 (1) Examining (for files) backup set with nonce=79a32e0eb164, datestamp=1687641879 (Jun 24 2023 21:24:39)
+0093.490 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0093.491 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0093.494 (1) Resume backup (b4800b14c6aa, 1): finish run
+0093.496 (1) [Info] Lock option (updraft_lock_b4800b14c6aa, wply_options) released
+0093.498 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0093.504 (1) The backup apparently succeeded and is now complete
+0093.505 (1) No email will/can be sent - the user has not configured an email address.
+0093.506 (1) La sauvegarde a apparemment réussi et est maintenant terminée

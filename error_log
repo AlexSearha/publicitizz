@@ -1,0 +1,7 @@
+[07-Jul-2022 09:21:07 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/btho3472/publicitizz.com/wp-content/plugins/elementor/includes/base/widget-base.php on line 183
+[07-Jul-2022 09:21:15 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/btho3472/publicitizz.com/wp-content/plugins/elementor/includes/base/widget-base.php on line 183
+[07-Jul-2022 09:21:29 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/btho3472/publicitizz.com/wp-content/plugins/elementor/includes/base/widget-base.php on line 183
+[07-Jul-2022 09:21:50 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/btho3472/publicitizz.com/wp-content/plugins/elementor/includes/base/widget-base.php on line 183
+[07-Jul-2022 09:22:02 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 225280 bytes) in /home/btho3472/publicitizz.com/wp-includes/post-template.php on line 255
+[07-Jul-2022 14:23:42 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126976 bytes) in /home/btho3472/publicitizz.com/wp-includes/class.wp-styles.php on line 185
+[07-Jul-2022 14:23:53 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126976 bytes) in /home/btho3472/publicitizz.com/wp-includes/class.wp-styles.php on line 185
